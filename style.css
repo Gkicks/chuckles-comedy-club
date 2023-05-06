@@ -13,6 +13,7 @@ nav {
     border-bottom: #002962;
     position: fixed;
     display: inline-block;
+    z-index: 2;
 }
 
 #logo {
@@ -53,9 +54,9 @@ nav {
 #nav-bar a {
     text-decoration: none;
     color: #a0001c;
-    padding: 20px;
+    padding: 15px;
     /* stop word jumping when hover */
-    border: 1px solid #F6F4F3;
+    border: 2px solid #F6F4F3;
 }
 
 #nav-bar .active {
@@ -64,8 +65,17 @@ nav {
 }
 
 #nav-bar a:hover {
-    border: 1px solid #a0001c;
-    padding: 20px;
+    border: 2px solid #a0001c;
+    padding: 15px;
     border-radius: 25px;
     color: #002962;
+}
+
+#main-photo {
+    clear: both;
+    height: 600px;
+    width: 100%;
+    background: url(./Images/Wall2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
 }
