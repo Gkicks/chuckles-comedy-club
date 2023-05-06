@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Kalam:wght@700&family=Tinos&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +12,22 @@ nav {
     background-color: #F6F4F3;
     border-bottom: #002962;
     position: fixed;
+    display: inline-block;
+}
+
+#logo {
+    float: left;
+    padding-left: 50px;
+    display: inline-block;
+    /* to vertically align logo  */
+    height: 75px;
+    line-height: 75px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #a0001c;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
 }
