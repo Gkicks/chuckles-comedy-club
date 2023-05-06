@@ -18,16 +18,40 @@ nav {
 #logo {
     float: left;
     padding-left: 50px;
+    margin: 0;
     display: inline-block;
-    /* to vertically align logo  */
-    height: 75px;
-    line-height: 75px;
+
 }
 
 #logo a {
     text-decoration: none;
     color: #a0001c;
     font-family: 'Kalam', cursive;
-    font-size: 30px;
+    font-size: 45px;
     text-transform: uppercase;
+    /* to vertically align logo  */
+    display: inline-block;
+    height: 75px;
+    line-height: 75px;
+}
+
+#nav-bar {
+    float: right;
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Tinos', sans-serif;
+    line-height: 75px;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #a0001c;
+
 }
