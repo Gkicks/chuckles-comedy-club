@@ -72,10 +72,63 @@ nav {
 }
 
 #main-photo {
-    clear: both;
-    height: 600px;
+    height: 675px;
     width: 100%;
+    overflow: hidden;
     background: url(./Images/Wall2.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
+    /* if background image doesn't load */
+    background-color: #b73239;
+}
+
+.about {
+    width: 300px;
+    height: 300px;
+    font-family: 'Tinos', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #f6f5f4;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#title {
+    top: 125px;
+    left: 100px;
+    background-color: rgba(160, 0, 28, 0.6);
+    padding: 40px 20px 0 20px;
+
+    animation: title-color 5s forwards;
+}
+
+@keyframes title-color {
+    from {
+        background-color: rgba(160, 0, 28, 0.6);
+    }
+
+    to {
+        background-color: rgba(24, 48, 89, .7);
+    }
+}
+
+#tagline {
+    top: 325px;
+    left: 300px;
+    z-index: 1;
+    background-color: rgba(24, 48, 89, 0.7);
+    padding: 30px 20px 0 20px;
+
+    animation: tagline-color 5s forwards;
+}
+
+@keyframes tagline-color {
+    from {
+        background-color: rgba(24, 48, 89, 0.7);
+    }
+
+    to {
+        background-color: rgba(160, 0, 28, 0.6);
+    }
 }
