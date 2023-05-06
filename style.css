@@ -46,12 +46,26 @@ nav {
 
 .nav-item {
     list-style-type: none;
-    padding: 0px 20px;
+    padding: 0px 50px;
     display: inline-block;
 }
 
 #nav-bar a {
     text-decoration: none;
     color: #a0001c;
+    padding: 20px;
+    /* stop word jumping when hover */
+    border: 1px solid #F6F4F3;
+}
 
+#nav-bar .active {
+    color: #002962;
+    text-decoration: underline;
+}
+
+#nav-bar a:hover {
+    border: 1px solid #a0001c;
+    padding: 20px;
+    border-radius: 25px;
+    color: #002962;
 }
