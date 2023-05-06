@@ -3,3 +3,11 @@
     padding: 0;
     border: 0;
 }
+
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: #F6F4F3;
+    border-bottom: #002962;
+    position: fixed;
+}
