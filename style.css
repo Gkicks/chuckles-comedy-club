@@ -89,7 +89,7 @@ nav {
     font-size: 50px;
     text-align: center;
     color: #f6f5f4;
-    border-radius: 20px;
+    border-radius: 25px;
     box-sizing: border-box;
     position: absolute;
 }
@@ -133,3 +133,56 @@ nav {
     }
 }
 
+#address-hours {
+    font-family: 'Biryani', sans-serif;
+    background-color: #F6F4F3;
+    color: #F6F4F3;
+    font-size: 20px;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#address-hours div {
+    height: 300px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #a0001c;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#find-us {
+    float: left;
+    margin-left: 50px;
+}
+
+#map {
+    display: inline-block;
+    justify-content: center;
+    justify-self: center;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+#opening {
+    float: right;
+    text-align: center;
+    margin-right: 50px;
+}
+
+#opening li {
+    list-style-type: none;
+    line-height: 150%;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#opening>h3 {
+    padding-bottom: 10px;
+}
