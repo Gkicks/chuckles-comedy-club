@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #F6F4F3;
 }
 
 nav {
@@ -13,6 +12,7 @@ nav {
     display: inline-block;
     z-index: 2;
     border-bottom: 1px solid #002962;
+    top: 0;
 }
 
 #logo {
@@ -236,15 +236,18 @@ footer a:hover {
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
 #friday {
     height: 40px;
-    position: absolute;
-    margin-top: 100px;
+    margin-top: 75px;
     display: block;
     padding-left: 50px;
+    padding-top: 20px;
     color: #002962;
+    background-color: #f6f5f4;
 }
 
 #fridaycomedy div {
@@ -253,8 +256,7 @@ footer a:hover {
     padding: 20px;
     border-radius: 25px;
     background-color: #a0001c;
-    margin-top: 150px;
-    margin-bottom: 25px;
+    display: inline-block;
 }
 
 #dondelaney {
@@ -266,16 +268,19 @@ footer a:hover {
     background-color: #a0001c;
     color: #f6f5f4;
     font-family: "biryani", sans-serif;
+    padding-bottom: 10px;
 }
 
 .comedian img {
     background-color: #a0001c;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
 }
 
 #comedian2 {
-    display: inline-block;
-    justify-content: center;
-    justify-self: center;
+    /* justify-content: center;
+    justify-self: center; */
 }
 
 #comedian3 {
