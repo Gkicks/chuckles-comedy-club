@@ -228,7 +228,8 @@ footer a:hover {
     color: #002962;
 }
 
-#fridaycomedy {
+#friday-comedy,
+#saturday-comedy {
     font-family: 'Biryani', sans-serif;
     background-color: #F6F4F3;
     color: #F6F4F3;
@@ -241,8 +242,12 @@ footer a:hover {
 }
 
 #friday {
-    height: 40px;
     margin-top: 75px;
+}
+
+#friday,
+#saturday {
+    height: 40px;
     display: block;
     padding-left: 50px;
     padding-top: 20px;
@@ -250,7 +255,11 @@ footer a:hover {
     background-color: #f6f5f4;
 }
 
-#fridaycomedy div {
+#saturday {
+    border-top: 1px solid #002962;
+}
+
+#friday-comedy div {
     height: 300px;
     width: 25%;
     padding: 20px;
@@ -259,7 +268,7 @@ footer a:hover {
     display: inline-block;
 }
 
-#dondelaney {
+#don-delaney {
     float: left;
     margin-left: 50px;
 }
@@ -278,12 +287,27 @@ footer a:hover {
     border-radius: 25px;
 }
 
-#comedian2 {
-    /* justify-content: center;
-    justify-self: center; */
+#malc-benn {
+    float: right;
+    text-align: center;
+    margin-right: 50px;
 }
 
-#comedian3 {
+#saturday-comedy div {
+    height: 300px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #a0001c;
+    display: inline-block;
+}
+
+#hayley-tomlinson {
+    float: left;
+    margin-left: 50px;
+}
+
+#dominic-marlin {
     float: right;
     text-align: center;
     margin-right: 50px;
