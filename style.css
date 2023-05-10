@@ -241,7 +241,7 @@ footer a:hover {
     height: 400px;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
     box-sizing: border-box;
 }
 
@@ -257,6 +257,7 @@ footer a:hover {
     padding-left: 50px;
     padding-top: 20px;
     background-color: #f6f5f4;
+    /* font-size: 50px; */
 }
 
 #saturday {
@@ -279,10 +280,13 @@ footer a:hover {
 }
 
 .comedian p {
-    /* background-color: #a0001c; */
     color: #f6f5f4;
     font-family: "biryani", sans-serif;
     padding-bottom: 10px;
+}
+
+.comedian-header {
+    font-size: 40px;
 }
 
 #friday-comedy p {
@@ -324,4 +328,107 @@ footer a:hover {
     float: right;
     text-align: center;
     margin-right: 50px;
+}
+
+/* sign up page */
+
+#sign-up {
+    width: 100%;
+    min-height: 1245px;
+    background: url(/Images/Flag.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#sign-up-form {
+    width: 70%;
+    height: 550px;
+    background-color: rgba(246, 245, 244, 0.9);
+    margin-left: 15%;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+#sign-up-header {
+    padding: 50px 50px 0 50px;
+    color: #002962;
+    font-family: "tinos", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+}
+
+form {
+    padding: 30px 50px 0 50px;
+    color: #002962;
+    font-family: 'tinos', sans-serif;
+    font-size: 25px;
+}
+
+#personal-details label {
+    display: inline-block;
+    float: left;
+    padding: 7px 20px;
+    clear: left;
+    width: 7em;
+}
+
+#personal-details input {
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    height: 40px;
+    padding: 6px 0 0 20px;
+    border-radius: 25px;
+    width: 250px;
+    font-family: "biryani", sans-serif;
+    font-size: 12px;
+    border: 1px solid #a0001c;
+}
+
+#personal-details input::placeholder {
+    font-weight: bold;
+    font-family: "biryani", sans-serif;
+}
+
+#hear {
+    padding-left: 20px;
+}
+
+#hear label {
+    padding-right: 1em;
+    padding-top: 6px;
+}
+
+#hear select {
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid #a0001c;
+    font-family: "biryani", sans-serif;
+    font-weight: 600;
+    color: #002962;
+}
+
+#agree {
+    padding: 20px 0 0 20px;
+    font-size: 15px;
+    color: #a0001c;
+}
+
+#submit {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#submit input {
+    width: 200px;
+    height: 50px;
+    background-color: #a0001c;
+    color: #F6F4F3;
+    border-radius: 25px;
+    border: 1px solid #002962;
+    font-size: 25px;
+    font-family: "kalam", cursive;
 }
