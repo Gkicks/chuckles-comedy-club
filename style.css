@@ -243,6 +243,7 @@ footer a:hover {
 
 #friday {
     margin-top: 75px;
+    color: #002962;
 }
 
 #friday,
@@ -251,12 +252,12 @@ footer a:hover {
     display: block;
     padding-left: 50px;
     padding-top: 20px;
-    color: #002962;
     background-color: #f6f5f4;
 }
 
 #saturday {
-    border-top: 1px solid #002962;
+    border-top: 1px solid #a0001c;
+    color: #a0001c;
 }
 
 #friday-comedy div {
@@ -274,14 +275,22 @@ footer a:hover {
 }
 
 .comedian p {
-    background-color: #a0001c;
+    /* background-color: #a0001c; */
     color: #f6f5f4;
     font-family: "biryani", sans-serif;
     padding-bottom: 10px;
 }
 
-.comedian img {
+#friday-comedy p {
     background-color: #a0001c;
+}
+
+#saturday-comedy p {
+    background-color: #002962;
+}
+
+.comedian img {
+    /* background-color: #a0001c; */
     height: 200px;
     width: 200px;
     border-radius: 25px;
@@ -298,7 +307,7 @@ footer a:hover {
     width: 25%;
     padding: 20px;
     border-radius: 25px;
-    background-color: #a0001c;
+    background-color: #002962;
     display: inline-block;
 }
 
