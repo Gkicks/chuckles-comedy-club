@@ -232,6 +232,11 @@ footer a:hover {
     color: #002962;
 }
 
+#copyright {
+    font-family: "kalam", cursive;
+    font-size: small;
+}
+
 #friday-comedy,
 #saturday-comedy {
     font-family: 'Biryani', sans-serif;
@@ -257,7 +262,6 @@ footer a:hover {
     padding-left: 50px;
     padding-top: 20px;
     background-color: #f6f5f4;
-    /* font-size: 50px; */
 }
 
 #saturday {
@@ -298,7 +302,6 @@ footer a:hover {
 }
 
 .comedian img {
-    /* background-color: #a0001c; */
     height: 200px;
     width: 200px;
     border-radius: 25px;
@@ -334,7 +337,7 @@ footer a:hover {
 
 #sign-up {
     width: 100%;
-    min-height: 1245px;
+    height: 700px;
     background: url(/Images/Flag.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
@@ -367,7 +370,6 @@ form {
 }
 
 #personal-details label {
-    display: inline-block;
     float: left;
     padding: 7px 20px;
     clear: left;
@@ -375,7 +377,6 @@ form {
 }
 
 #personal-details input {
-    display: inline-block;
     box-sizing: border-box;
     float: left;
     height: 40px;
