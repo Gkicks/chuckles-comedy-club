@@ -11,8 +11,8 @@
     <title>What's On</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
-
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- links to google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,11 +37,13 @@
             </ul>
         </nav>
     </header>
+<!-- sign up form -->
     <section id="sign-up">
         <div id="sign-up-form">
             <h3 id="sign-up-header">Sign up to our newsletter, to receive emails and special offers, to upcoming events!
             </h3>
             <form action="https://formdump.codeinstitute.net" method="post" target="_blank">
+                <!-- personal details -->
                 <div id="personal-details">
                     <label for="fname">First Name:</label>
                     <input type="text" name="first_name" id="fname" placeholder="First Name" required>
@@ -53,6 +55,7 @@
                     <input type="email" name="user_email" id="email" placeholder="Email" required>
                     <br><br>
                 </div>
+                <!-- where did you hear about us dropdown -->
                 <div id="hear">
                     <label for="where-hear">Where did you hear about us?</label>
                     <select name="where_hear" id="where-hear">
@@ -62,18 +65,21 @@
                         <option value="other">Other</option>
                     </select>
                 </div>
+                <!-- agree to marketing checkbox -->
                 <div id="agree">
                     <input type="checkbox" name="allow_marketing" id="marketing" value="yes" checked>
                     <label for="marketing">I agree to Chuckles contacting me with personalised news, and offers, that
                         may be
                         of interest to me</label>
                 </div>
+                <!-- submit button -->
                 <div id="submit">
                     <input type="submit" value="Submit Form">
                 </div>
             </form>
         </div>\
     </section>
+    <!-- footer with social media links and copyright -->
     <footer>
         <h3>Connect with us:</h3>
         <ul>
