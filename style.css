@@ -470,11 +470,31 @@ input[type=submit]:hover {
 
 /* for screens less than 925px */
 @media (max-width:925px) {
+    #logo {
+        height: 50px;
+    }
+
+    nav {
+        height: 115px;
+    }
+
     #nav-bar {
+        clear: left;
+        float: left;
+        padding: 0 10px;
+        margin-top: 10px;
         /* justify-content: center; */
     }
 
-    /* #address-hours { */
-    /* flex-direction: column; */
-    /* } */
+    .nav-item {
+        line-height: 50px;
+    }
+
+    #main-photo {
+        margin-top: 25px;
+    }
+
+    #friday {
+        margin-top: 115px;
+    }
 }
