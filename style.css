@@ -358,6 +358,11 @@ footer .comedian p {
     margin-right: 50px;
 }
 
+audio {
+    width: 90%;
+    text-align: center;
+}
+
 /* sign up page background image */
 #sign-up {
     width: 100%;
