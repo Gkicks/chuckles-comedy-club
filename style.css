@@ -330,7 +330,8 @@ footer .comedian p {
 
 .comedian img {
     height: 200px;
-    width: 200px;
+    width: 90%;
+    text-align: center;
     border-radius: 25px;
 }
 
