@@ -1,5 +1,4 @@
 /* general */
-
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +25,7 @@ nav {
 #logo {
     float: left;
     padding-left: 50px;
+    margin-bottom: 0;
 }
 
 #logo a {
@@ -176,12 +176,11 @@ h3 {
 
 /* address */
 #find-us {
-    /* float: left; */
+    font-size: 120%;
 }
 
 /* map */
 #map {
-    /* display: inline-block; */
     justify-content: center;
     justify-self: center;
 }
@@ -195,7 +194,6 @@ iframe {
 
 /* opening hours */
 #opening {
-    /* float: right; */
     text-align: center;
 }
 
@@ -206,7 +204,6 @@ iframe {
 
 #opening li {
     list-style-type: none;
-    /* line-height: 150%; */
 }
 
 #opening>h3 {
@@ -267,6 +264,8 @@ footer a:hover {
     font-size: small;
 }
 
+/* what's on page */
+
 /* which day section */
 #friday,
 #saturday {
@@ -287,6 +286,10 @@ footer a:hover {
     color: #a0001c;
 }
 
+.comedian-header {
+    font-size: 40px;
+}
+
 /* comedian info sections */
 #friday-comedy,
 #saturday-comedy {
@@ -303,13 +306,27 @@ footer a:hover {
     box-sizing: border-box;
 }
 
-#friday-comedy div {
+/* individual comedian boxes */
+.comedian {
     height: 300px;
     width: 25%;
     padding: 20px;
     border-radius: 25px;
+}
+
+#friday-comedy div {
     background-color: #a0001c;
-    /* display: inline-block; */
+}
+
+#saturday-comedy div {
+    background-color: #002962;
+}
+
+/* comedian's names */
+.comedian p {
+    color: #f6f5f4;
+    font-family: "biryani", sans-serif;
+    padding-bottom: 10px;
 }
 
 #friday-comedy p {
@@ -320,35 +337,18 @@ footer a:hover {
     background-color: #002962;
 }
 
-.comedian-header {
-    font-size: 40px;
-}
-
-footer .comedian p {
-    color: #f6f5f4;
-    font-family: "biryani", sans-serif;
-    padding-bottom: 10px;
-}
-
+/* comedian photos */
 .comedian img {
-    height: 200px;
-    width: 67%;
-    text-align: center;
+    height: 70%;
+    width: 70%;
     border-radius: 25px;
 }
 
-#saturday-comedy div {
-    height: 300px;
-    width: 25%;
-    padding: 20px;
-    border-radius: 25px;
-    background-color: #002962;
-    /* display: inline-block; */
-}
-
+/* comedian audio */
 audio {
     width: 90%;
-    text-align: center;
+    height: 40px;
+    /* text-align: center; */
 }
 
 /* sign up page background image */
@@ -385,20 +385,15 @@ form {
     font-family: "tinos", sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
 }
 
 /* name and email address inputs */
-#personal-details {
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-
 #personal-details label {
     float: left;
-    padding: 7px 20px;
+    padding: 7px 0;
     clear: left;
-    width: 7em;
+    width: 25vw;
 }
 
 #personal-details input {
@@ -433,7 +428,6 @@ form {
 
 #hear label {
     padding-right: 1em;
-    /* padding-top: 6px; */
 }
 
 #hear select {
@@ -445,6 +439,7 @@ form {
     font-weight: 600;
     color: #002962;
     background-color: #F6F4F3;
+    padding-top: 5px;
 }
 
 /* agree to marketing checkbox */
@@ -494,7 +489,6 @@ input[type=submit]:hover {
         float: left;
         padding: 0 10px;
         margin-top: 10px;
-        /* justify-content: center; */
     }
 
     .nav-item {
@@ -507,5 +501,22 @@ input[type=submit]:hover {
 
     #friday {
         margin-top: 115px;
+    }
+
+    #friday-comedy,
+    #saturday-comedy {
+        height: 360px;
+    }
+
+    .comedian {
+        height: 250px;
+    }
+
+    .comedian p {
+        font-size: 2vw;
+    }
+
+    audio {
+        height: 30px;
     }
 }
