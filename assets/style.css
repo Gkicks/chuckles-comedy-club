@@ -1,3 +1,6 @@
+/* import Google fonts - Kalam, Biryani and Tinos */
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Kalam:wght@700&family=Tinos&display=swap');
+
 /* general */
 * {
     margin: 0;
