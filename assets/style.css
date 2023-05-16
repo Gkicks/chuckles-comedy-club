@@ -84,7 +84,7 @@ nav {
     height: 750px;
     width: 100%;
     overflow: hidden;
-    background: url(assets/images/wall-mic.jpg) no-repeat center center;
+    background: url(images/wall-mic.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     /* if background image doesn't load */
