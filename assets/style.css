@@ -314,7 +314,8 @@ footer a:hover {
 /* individual comedian boxes */
 .comedian {
     height: 300px;
-    width: 25%;
+    /* width: 25%; */
+    width: 300px;
     padding: 20px;
     border-radius: 25px;
 }
@@ -514,6 +515,7 @@ input[type=submit]:hover {
 
     .comedian {
         height: 250px;
+        width: 250px;
     }
 
     .comedian p {
