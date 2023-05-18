@@ -10,6 +10,7 @@
 
 body {
     background-color: #F6F4F3;
+    /* to prevent horizontal scroll bar */
     overflow-x: hidden;
 }
 
@@ -84,14 +85,14 @@ nav {
 
 /* main photo */
 #main-photo {
-    height: 750px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     background: url(images/wall-mic.webp) no-repeat center center;
+    /* background: no-repeat center center; */
     background-size: cover;
     position: relative;
-    /* if background image doesn't load */
-    background-color: #b73239;
+    margin-top: 30px;
 }
 
 /* club name and tagline divs */
@@ -523,3 +524,5 @@ input[type=submit]:hover {
         height: 30px;
     }
 }
+
+/* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
