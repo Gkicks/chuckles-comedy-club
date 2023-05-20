@@ -553,4 +553,12 @@ input[type=submit]:hover {
     }
 }
 
+@media (max-width:672px) {
+
+    #nav-bar a {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+
 /* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
