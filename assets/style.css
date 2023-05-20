@@ -61,7 +61,7 @@ nav {
 .nav-item {
     list-style-type: none;
     padding: 0px 10px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #nav-bar a {
@@ -82,6 +82,21 @@ nav {
     padding: 15px;
     border-radius: 25px;
     color: #002962;
+}
+
+/* dropdown for media query on smaller screens - hide button on larger screens */
+.dropdown {
+    display: none;
+}
+
+/* to hide checkbox */
+.dropdown input[type="checkbox"] {
+    appearance: none;
+}
+
+.dropdown {
+    border: none;
+    background-color: transparent;
 }
 
 /* main photo */
@@ -550,14 +565,58 @@ input[type=submit]:hover {
 
     #sign-up-form {
         position: relative;
+        margin-top: 75px;
     }
 }
 
 @media (max-width:672px) {
 
-    #nav-bar a {
-        padding: 10px 10px 10px 10px;
+    nav {
+        min-height: 75px;
+        height: auto;
     }
+
+    #nav-bar {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        float: right;
+    }
+
+    .nav-item {
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #nav-bar a:hover {
+        border: none;
+        padding: 0;
+    }
+
+    .dropdown {
+        display: block;
+        float: right;
+        padding: 20px 100px 0 0;
+        font-size: 30px;
+    }
+
+    #chevron-up {
+        display: none;
+    }
+
+    header:has(.dropdown input[type="checkbox"]:checked) #nav-bar {
+        margin-top: -40px;
+        height: auto;
+    }
+
+    header:has(.dropdown input[type="checkbox"]:checked) #chevron-down {
+        display: none;
+    }
+
+    header:has(.dropdown input[type="checkbox"]:checked) #chevron-up {
+        display: inline-block;
+    }
+
 }
 
 

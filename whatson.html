@@ -20,17 +20,24 @@
         <nav>
             <!-- logo - position left side -->
             <h1 id="logo"><a href="index.html" aria-label="takes you to the homepage">Chuckles</a></h1>
+            <!-- button for screen size less than 672px -->
+            <button class="dropdown">
+                <label for="dropdown-input">
+                    <i id="chevron-down" class="fa-solid fa-chevron-down" style="color: #a0001c;"></i>
+                    <i id="chevron-up" class="fa-solid fa-chevron-up" style="color: #a0001c;"></i>
+                </label>
+                <input type="checkbox" id="dropdown-input">
+            </button>
             <ul id="nav-bar">
                 <!-- menu items -->
                 <li class="nav-item"><a href="index.html" aria-label="takes you to the homepage">Home</a>
-                <li class="nav-item"><a href="index.html#find-us" aria-label="takes you to the address section">Find
-                        Us</a></li>
-                <li class="nav-item"><a href="index.html#opening"
-                        aria-label="takes you to the opening hours section">Opening
+                </li>
+                <li class="nav-item"><a href="#find-us" aria-label="takes you to the address section">Find Us</a></li>
+                <li class="nav-item"><a href="#opening" aria-label="takes you to the opening hours section">Opening
                         Hours</a></li>
-                <li class="nav-item"><a href="whatson.html" class="active"
-                        aria-label="takes you to the what's on page">What's On</a></li>
-                <li class="nav-item"><a href="signup.html" aria-label="takes to to the sign up page">Sign Up</a></li>
+                <li class="nav-item"><a href="whatson.html" class="active" aria-label="takes you to the what's on page">What's On</a>
+                </li>
+                <li class="nav-item"><a href="signup.html" aria-label="takes you to the sign up page">Sign Up</a></li>
             </ul>
         </nav>
     </header>
