@@ -8,7 +8,8 @@
     border: 0;
 }
 
-body {
+body,
+html {
     background-color: #F6F4F3;
     /* to prevent horizontal scroll bar */
     overflow-x: hidden;
@@ -360,7 +361,7 @@ audio {
 #sign-up {
     width: 100%;
     height: 700px;
-    background: url(assets/images/flag.jpg) no-repeat center center;
+    background: url(/assets/images/flag.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -524,6 +525,31 @@ input[type=submit]:hover {
 
     audio {
         height: 30px;
+    }
+}
+
+@media (max-width:790px) {
+
+    #address-hours {
+        font-size: 2vw;
+    }
+
+    .comedian {
+        height: 200px;
+        width: 200px;
+    }
+
+    .comedian p {
+        padding-bottom: 5px;
+    }
+
+    #friday-comedy,
+    #saturday-comedy {
+        height: 300px;
+    }
+
+    #sign-up-form {
+        position: relative;
     }
 }
 
