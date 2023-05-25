@@ -17,33 +17,36 @@ html {
 
 /* navigation bar */
 nav {
-    height: 75px;
+    height: 12vh;
     width: 100%;
     background-color: #F6F4F3;
+    /* keep navbar showing when scrolling */
     position: fixed;
     display: inline-block;
+    /* keep navbar on top of other content */
     z-index: 2;
     border-bottom: 1px solid #002962;
+    /* fix navbar to the top of the page */
     top: 0;
 }
 
 /* left logo */
 #logo {
     float: left;
-    padding-left: 50px;
-    margin-bottom: 0;
+    padding-left: 5vw;
+    /* margin-bottom: 0; */
 }
 
 #logo a {
     text-decoration: none;
     color: #a0001c;
     font-family: 'Kalam', cursive;
-    font-size: 45px;
+    font-size: 4vw;
     text-transform: uppercase;
     /* to vertically align logo  */
     display: inline-block;
-    height: 75px;
-    line-height: 75px;
+    height: 12vh;
+    line-height: 12vh;
 }
 
 /* menu items */
@@ -51,23 +54,24 @@ nav {
     display: flex;
     justify-content: space-around;
     float: right;
-    padding-right: 30px;
-    font-weight: 500;
-    font-size: 20px;
+    padding-right: 4vw;
+    /* font-weight: 500; */
+    font-size: 3vh;
     font-family: 'Tinos', sans-serif;
-    line-height: 75px;
+    /* to center text vertically */
+    line-height: 12vh;
 }
 
 .nav-item {
     list-style-type: none;
-    padding: 0px 10px;
+    padding: 0 1vw;
     /* display: inline-block; */
 }
 
 #nav-bar a {
     text-decoration: none;
     color: #a0001c;
-    padding: 15px;
+    padding: 2vw;
     /* stop word jumping when hover */
     border: 2px solid #F6F4F3;
 }
@@ -79,7 +83,7 @@ nav {
 
 #nav-bar a:hover {
     border: 2px solid #a0001c;
-    padding: 15px;
+    padding: 2vw;
     border-radius: 25px;
     color: #002962;
 }
@@ -99,38 +103,51 @@ nav {
     background-color: transparent;
 }
 
-/* main photo */
 #main-photo {
-    height: 700px;
+    /* so main photo covers screen height */
+    height: 88vh;
     width: 100%;
-    overflow: hidden;
     background: url(images/wall-mic.webp) no-repeat center center;
-    /* background: no-repeat center center; */
     background-size: cover;
+    /* position: relative; */
+    /* keep background image in place when scrolling */
+    background-attachment: scroll;
+}
+
+#main-photo-inner {
+    width: 50%;
+    height: 100%;
+    margin-top: 12vh;
     position: relative;
-    margin-top: 30px;
 }
 
 /* club name and tagline divs */
 .about {
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
     font-family: 'Tinos', sans-serif;
-    font-size: 50px;
+    /* font to be responsive to size of div */
+    font-size: 3vw;
     text-align: center;
     color: #f6f5f4;
     border-radius: 25px;
     box-sizing: border-box;
     position: absolute;
+    padding-top: 8vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-transform: uppercase;
 }
 
 /* club name */
 #title {
-    top: 125px;
-    left: 100px;
+    top: 6vh;
+    left: 20%;
     background-color: rgba(160, 0, 28, 0.6);
-    padding: 40px 20px 0 20px;
-    text-transform: uppercase;
+    /* padding-top: 5%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-transform: uppercase; */
 
     animation: title-color 5s forwards;
 }
@@ -148,11 +165,10 @@ nav {
 
 /* club tagline */
 #tagline {
-    top: 325px;
-    left: 300px;
+    bottom: 6vh;
+    left: 50%;
     z-index: 1;
     background-color: rgba(24, 48, 89, 0.7);
-    padding: 30px 20px 0 20px;
 
     animation: tagline-color 5s forwards;
 }
@@ -176,23 +192,23 @@ nav {
     background-color: #F6F4F3;
     color: #F6F4F3;
     font-size: 100%;
-    height: 400px;
+    /* height: 50vh; */
     width: 100%;
     text-align: center;
 }
 
 #address-hours div {
-    height: 300px;
+    height: 40vh;
     width: 25%;
-    padding: 20px;
+    padding: 3vw;
     border-radius: 25px;
     background-color: #a0001c;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 /* address */
@@ -210,7 +226,7 @@ h3 {
 iframe {
     border-radius: 25px;
     width: 100%;
-    height: 300px;
+    height: 40vh;
 }
 
 /* opening hours */
@@ -228,7 +244,7 @@ iframe {
 }
 
 #opening>h3 {
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 }
 
 /* footer */
@@ -237,14 +253,19 @@ footer {
     width: 100%;
     background-color: #F6F4F3;
     font-family: 'Biryani', sans-serif;
-    padding: 20px;
+    padding-top: 5vh;
+    /* padding-bottom: 20vh; */
+    /* padding-left: 10vw; */
+    /* padding-right: 10vw; */
+    /* padding: 20px; */
     border-top: 1px solid #002962;
     color: #a0001c;
 }
 
+/* 
 footer>div {
-    font-size: 25px;
-}
+    font-size: 3vw;
+} */
 
 /* social media links */
 footer li {
@@ -253,8 +274,9 @@ footer li {
     text-align: center;
     float: left;
     width: 33.3%;
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 1.5vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 footer>ul {
@@ -574,6 +596,8 @@ button a {
 
     #main-photo {
         margin-top: 25px;
+        /* to stop main photo from being cropped */
+        background-size: contain;
     }
 
     #friday {
@@ -652,7 +676,7 @@ button a {
     .dropdown {
         display: block;
         float: right;
-        padding: 20px 100px 0 0;
+        padding: 20px 50px 0 0;
         font-size: 30px;
     }
 
