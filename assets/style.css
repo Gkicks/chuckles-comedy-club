@@ -41,7 +41,7 @@ nav {
     text-decoration: none;
     color: #a0001c;
     font-family: 'Kalam', cursive;
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-transform: uppercase;
     /* to vertically align logo  */
     display: inline-block;
@@ -71,7 +71,7 @@ nav {
 #nav-bar a {
     text-decoration: none;
     color: #a0001c;
-    padding: 2vw;
+    padding: 1vw;
     /* stop word jumping when hover */
     border: 2px solid #F6F4F3;
 }
@@ -83,7 +83,7 @@ nav {
 
 #nav-bar a:hover {
     border: 2px solid #a0001c;
-    padding: 2vw;
+    padding: 1vw;
     border-radius: 25px;
     color: #002962;
 }
@@ -107,7 +107,7 @@ nav {
     /* so main photo covers screen height */
     height: 88vh;
     width: 100%;
-    background: url(images/wall-mic.webp) no-repeat center center;
+    background: url(images/wall.jpg) no-repeat center center;
     background-size: cover;
     /* position: relative; */
     /* keep background image in place when scrolling */
@@ -254,6 +254,7 @@ footer {
     background-color: #F6F4F3;
     font-family: 'Biryani', sans-serif;
     padding-top: 5vh;
+    padding-bottom: 2vh;
     /* padding-bottom: 20vh; */
     /* padding-left: 10vw; */
     /* padding-right: 10vw; */
@@ -282,30 +283,31 @@ footer li {
 footer>ul {
     display: flex;
     justify-content: space-evenly;
-    height: 50px;
+    margin-top: 3vh;
+    /* height: 50px; */
 }
 
 footer a {
     font-weight: 500;
     text-decoration: none;
     color: #a0001c;
-    padding: 15px;
+    padding: 1vw;
     /* stop word jumping when hover */
     border: 2px solid #F6F4F3;
 }
 
 footer a:hover {
     border: 2px solid #a0001c;
-    padding: 15px;
+    padding: 1vw;
     border-radius: 25px;
     color: #002962;
 }
 
 /* copyright */
-#copyright {
+/* #copyright {
     font-family: "kalam", cursive;
     font-size: small;
-}
+} */
 
 /* what's on page */
 
@@ -576,28 +578,35 @@ button a {
 /* for screens less than 925px */
 @media (max-width:925px) {
     #logo {
-        height: 50px;
+        height: 8vh;
     }
 
     nav {
-        height: 115px;
+        height: 20vh;
     }
 
     #nav-bar {
         clear: left;
         float: left;
-        padding: 0 10px;
-        margin-top: 10px;
+        padding-left: 3vw;
+        margin-top: 2vh;
     }
 
     .nav-item {
-        line-height: 50px;
+        line-height: 7vh;
     }
 
     #main-photo {
-        margin-top: 25px;
+        margin-top: 19vh;
+        height: 80vh;
+        /* overflow-x: visible; */
         /* to stop main photo from being cropped */
-        background-size: contain;
+        /* background-size: contain; */
+    }
+
+    .about {
+        width: 30vw;
+        height: 30vw;
     }
 
     #friday {
@@ -623,7 +632,13 @@ button a {
     }
 }
 
-@media (max-width:790px) {
+@media (max-width:750px) {
+
+    .about {
+        font-size: 3.5vw;
+        height: 35vw;
+        width: 35vw;
+    }
 
     #address-hours {
         font-size: 2vw;
@@ -651,53 +666,105 @@ button a {
 
 @media (max-width:672px) {
 
-    nav {
-        min-height: 75px;
-        height: auto;
+    #title {
+        top: 10vh;
     }
 
-    #nav-bar {
-        height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        float: right;
+    #tagline {
+        bottom: 10vh;
     }
 
-    .nav-item {
-        line-height: 40px;
-        font-size: 20px;
-    }
-
-    #nav-bar a:hover {
-        border: none;
-        padding: 0;
-    }
-
-    .dropdown {
-        display: block;
-        float: right;
-        padding: 20px 50px 0 0;
-        font-size: 30px;
-    }
-
-    #chevron-up {
-        display: none;
-    }
-
-    header:has(.dropdown input[type="checkbox"]:checked) #nav-bar {
-        margin-top: -40px;
-        height: auto;
-    }
-
-    header:has(.dropdown input[type="checkbox"]:checked) #chevron-down {
-        display: none;
-    }
-
-    header:has(.dropdown input[type="checkbox"]:checked) #chevron-up {
+    #address-hours {
         display: inline-block;
+        font-size: 2vh;
+        /* margin: 1vh auto; */
     }
 
-}
+    #address-hours div {
+        width: 90%;
+        /* margin-top: 3vh; */
+        /* margin-bottom: 0; */
+        margin: 1vh auto;
+        height: 30vh;
+    }
+
+    iframe {
+        height: 30vh;
+    }
+
+    #address-hours h3 {
+        font-size: 3vh;
+    }
+
+    @media (max-width: 520px) {
+
+        nav {
+            min-height: 12vh;
+            height: auto;
+        }
+
+        #nav-bar {
+            height: 0;
+            overflow: hidden;
+            flex-direction: column;
+            float: right;
+        }
+
+        .nav-item {
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        #nav-bar a:hover {
+            border: none;
+            padding: 0;
+        }
+
+        .dropdown {
+            display: block;
+            float: right;
+            padding: 20px 50px 0 0;
+            font-size: 30px;
+        }
+
+        #chevron-up {
+            display: none;
+        }
+
+        header:has(.dropdown input[type="checkbox"]:checked) #nav-bar {
+            margin-top: -40px;
+            height: auto;
+        }
+
+        header:has(.dropdown input[type="checkbox"]:checked) #chevron-down {
+            display: none;
+        }
+
+        header:has(.dropdown input[type="checkbox"]:checked) #chevron-up {
+            display: inline-block;
+        }
+
+        #main-photo {
+            margin-top: -1vh;
+            height: 50vh;
+            /* background-size: contain; */
+        }
+
+        .about {
+            height: 50%;
+            width: 50%;
+            padding-top: 4vh;
+        }
+
+        #title {
+            top: 5vh;
+        }
+
+        #tagline {
+            bottom: 5vh;
+        }
+
+    }
 
 
-/* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
+    /* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
