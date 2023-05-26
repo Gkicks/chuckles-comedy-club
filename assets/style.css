@@ -133,6 +133,7 @@ nav {
     color: #f6f5f4;
     border-radius: 25px;
     display: table;
+    padding: 10px;
     /* box-sizing: border-box; */
     /* position: absolute; */
     /* padding-top: 8vh; */
@@ -784,6 +785,11 @@ button a {
 
     .nav-item {
         line-height: 30px;
+    }
+
+    #main-photo {
+        background: url(/assets/images/wall-crop.webp) no-repeat center center;
+        background-size: cover;
     }
 
     footer {
