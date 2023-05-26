@@ -105,7 +105,7 @@ nav {
     /* so main photo covers screen height */
     height: 88vh;
     width: 100%;
-    background: url(images/wall.webp) no-repeat center center;
+    background: url(images/wall.webp) no-repeat right top;
     background-size: cover;
     /* position: relative; */
     /* keep background image in place when scrolling */
@@ -222,7 +222,7 @@ nav {
     margin-bottom: 5vh;
 }
 
-h3 {
+h2 {
     font-size: 25px;
 }
 
@@ -258,7 +258,7 @@ iframe {
     list-style-type: none;
 }
 
-#opening>h3 {
+#opening>h2 {
     padding-bottom: 1vh;
 }
 
@@ -275,6 +275,10 @@ footer {
 }
 
 /* social media links */
+h3 {
+    font-size: 25px;
+}
+
 footer li {
     list-style-type: none;
     text-transform: uppercase;
@@ -778,7 +782,7 @@ button a {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     #logo a {
         font-size: 20px;
     }
@@ -787,10 +791,10 @@ button a {
         line-height: 30px;
     }
 
-    #main-photo {
+    /* #main-photo {
         background: url(/assets/images/wall-crop.webp) no-repeat center center;
         background-size: cover;
-    }
+    } */
 
     footer {
         padding-top: 1.5vh;
