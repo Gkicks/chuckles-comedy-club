@@ -34,14 +34,13 @@ nav {
 #logo {
     float: left;
     padding-left: 5vw;
-    /* margin-bottom: 0; */
 }
 
 #logo a {
     text-decoration: none;
     color: #a0001c;
     font-family: 'Kalam', cursive;
-    font-size: 3.5vw;
+    font-size: 40px;
     text-transform: uppercase;
     /* to vertically align logo  */
     display: inline-block;
@@ -55,8 +54,7 @@ nav {
     justify-content: space-around;
     float: right;
     padding-right: 4vw;
-    /* font-weight: 500; */
-    font-size: 3vh;
+    font-size: 20px;
     font-family: 'Tinos', sans-serif;
     /* to center text vertically */
     line-height: 12vh;
@@ -127,7 +125,7 @@ nav {
     height: 50%;
     font-family: 'Tinos', sans-serif;
     /* font to be responsive to size of div */
-    font-size: 3vw;
+    font-size: 40px;
     text-align: center;
     color: #f6f5f4;
     border-radius: 25px;
@@ -191,7 +189,7 @@ nav {
     font-family: 'Biryani', sans-serif;
     background-color: #F6F4F3;
     color: #F6F4F3;
-    font-size: 100%;
+    font-size: 16px;
     /* height: 50vh; */
     width: 100%;
     text-align: center;
@@ -208,12 +206,12 @@ nav {
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 /* address */
 #find-us {
-    font-size: 120%;
+    font-size: 20px;
 }
 
 /* map */
@@ -255,18 +253,9 @@ footer {
     font-family: 'Biryani', sans-serif;
     padding-top: 5vh;
     padding-bottom: 2vh;
-    /* padding-bottom: 20vh; */
-    /* padding-left: 10vw; */
-    /* padding-right: 10vw; */
-    /* padding: 20px; */
     border-top: 1px solid #002962;
     color: #a0001c;
 }
-
-/* 
-footer>div {
-    font-size: 3vw;
-} */
 
 /* social media links */
 footer li {
@@ -275,7 +264,7 @@ footer li {
     text-align: center;
     float: left;
     width: 33.3%;
-    font-size: 1.5vw;
+    font-size: 16px;
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
@@ -302,12 +291,6 @@ footer a:hover {
     border-radius: 25px;
     color: #002962;
 }
-
-/* copyright */
-/* #copyright {
-    font-family: "kalam", cursive;
-    font-size: small;
-} */
 
 /* what's on page */
 
