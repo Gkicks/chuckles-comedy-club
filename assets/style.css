@@ -113,10 +113,14 @@ nav {
 }
 
 #main-photo-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 50%;
     height: 100%;
     margin-top: 12vh;
-    position: relative;
+    /* margin-top: 12vh; */
+    /* position: relative; */
 }
 
 /* club name and tagline divs */
@@ -124,24 +128,25 @@ nav {
     width: 50%;
     height: 50%;
     font-family: 'Tinos', sans-serif;
-    /* font to be responsive to size of div */
     font-size: 40px;
     text-align: center;
     color: #f6f5f4;
     border-radius: 25px;
-    box-sizing: border-box;
-    position: absolute;
-    padding-top: 8vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    /* box-sizing: border-box; */
+    /* position: absolute; */
+    /* padding-top: 8vh; */
+    /* padding-left: 2vw; */
+    /* padding-right: 2vw; */
     text-transform: uppercase;
 }
 
 /* club name */
 #title {
-    top: 6vh;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    /* top: 6vh;
     left: 20%;
-    background-color: rgba(160, 0, 28, 0.6);
+    background-color: rgba(160, 0, 28, 0.6); */
     /* padding-top: 5%;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -163,9 +168,11 @@ nav {
 
 /* club tagline */
 #tagline {
-    bottom: 6vh;
-    left: 50%;
-    z-index: 1;
+    margin-bottom: 10vh;
+    margin-left: 40vw;
+    /* bottom: 6vh;
+    left: 50%; */
+    /* z-index: 1; */
     background-color: rgba(24, 48, 89, 0.7);
 
     animation: tagline-color 5s forwards;
