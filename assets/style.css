@@ -129,9 +129,10 @@ nav {
     height: 50%;
     font-family: 'Tinos', sans-serif;
     font-size: 40px;
-    text-align: center;
+    /* text-align: center; */
     color: #f6f5f4;
     border-radius: 25px;
+    display: table;
     /* box-sizing: border-box; */
     /* position: absolute; */
     /* padding-top: 8vh; */
@@ -144,6 +145,7 @@ nav {
 #title {
     margin-top: 10vh;
     margin-left: 10vw;
+    display: table;
     /* top: 6vh;
     left: 20%;
     background-color: rgba(160, 0, 28, 0.6); */
@@ -166,14 +168,21 @@ nav {
     }
 }
 
+.about-paragraph {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
 /* club tagline */
 #tagline {
     margin-bottom: 10vh;
-    margin-left: 40vw;
+    margin-left: 30vw;
     /* bottom: 6vh;
     left: 50%; */
     /* z-index: 1; */
     background-color: rgba(24, 48, 89, 0.7);
+    display: table;
 
     animation: tagline-color 5s forwards;
 }
@@ -594,10 +603,10 @@ button a {
         /* background-size: contain; */
     }
 
-    .about {
+    /* .about {
         width: 30vw;
         height: 30vw;
-    }
+    } */
 
     #friday {
         margin-top: 115px;
@@ -625,9 +634,9 @@ button a {
 @media (max-width:750px) {
 
     .about {
-        font-size: 3.5vw;
-        height: 35vw;
-        width: 35vw;
+        font-size: 30px;
+        /* height: 35vw; */
+        /* width: 35vw; */
     }
 
     #address-hours {
@@ -656,12 +665,10 @@ button a {
 
 @media (max-width:672px) {
 
-    #title {
-        top: 10vh;
-    }
-
-    #tagline {
-        bottom: 10vh;
+    .about {
+        font-size: 25px;
+        /* height: 35vw; */
+        /* width: 35vw; */
     }
 
     #address-hours {
@@ -741,6 +748,10 @@ button a {
         }
 
         .about {
+            font-size: 20px;
+        }
+
+        /* .about {
             height: 50%;
             width: 50%;
             padding-top: 4vh;
@@ -752,7 +763,7 @@ button a {
 
         #tagline {
             bottom: 5vh;
-        }
+        } */
 
     }
 
