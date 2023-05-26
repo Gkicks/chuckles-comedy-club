@@ -105,7 +105,7 @@ nav {
     /* so main photo covers screen height */
     height: 88vh;
     width: 100%;
-    background: url(images/wall.jpg) no-repeat center center;
+    background: url(images/wall.webp) no-repeat center center;
     background-size: cover;
     /* position: relative; */
     /* keep background image in place when scrolling */
