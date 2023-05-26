@@ -268,7 +268,7 @@ footer {
     background-color: #F6F4F3;
     font-family: 'Biryani', sans-serif;
     padding-top: 5vh;
-    padding-bottom: 2vh;
+    /* padding-bottom: 2vh; */
     border-top: 1px solid #002962;
     color: #a0001c;
 }
@@ -288,7 +288,7 @@ footer li {
 footer>ul {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
     /* height: 50px; */
 }
 
@@ -665,6 +665,10 @@ button a {
 
 @media (max-width:672px) {
 
+    #nav-bar {
+        font-size: 16px;
+    }
+
     .about {
         font-size: 25px;
         /* height: 35vw; */
@@ -693,65 +697,71 @@ button a {
         font-size: 3vh;
     }
 
-    @media (max-width: 520px) {
+}
 
-        nav {
-            min-height: 12vh;
-            height: auto;
-        }
+@media (max-width: 525px) {
 
-        #nav-bar {
-            height: 0;
-            overflow: hidden;
-            flex-direction: column;
-            float: right;
-        }
+    nav {
+        min-height: 12vh;
+        height: auto;
+    }
 
-        .nav-item {
-            line-height: 40px;
-            font-size: 20px;
-        }
+    #nav-bar {
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        float: right;
+    }
 
-        #nav-bar a:hover {
-            border: none;
-            padding: 0;
-        }
+    .nav-item {
+        line-height: 40px;
+        font-size: 20px;
+    }
 
-        .dropdown {
-            display: block;
-            float: right;
-            padding: 20px 50px 0 0;
-            font-size: 30px;
-        }
+    #nav-bar a:hover {
+        border: none;
+        padding: 0;
+    }
 
-        #chevron-up {
-            display: none;
-        }
+    .dropdown {
+        display: block;
+        float: right;
+        padding: 20px 50px 0 0;
+        font-size: 25px;
+    }
 
-        header:has(.dropdown input[type="checkbox"]:checked) #nav-bar {
-            margin-top: -40px;
-            height: auto;
-        }
+    #chevron-up {
+        display: none;
+    }
 
-        header:has(.dropdown input[type="checkbox"]:checked) #chevron-down {
-            display: none;
-        }
+    header:has(.dropdown input[type="checkbox"]:checked) #nav-bar {
+        margin-top: -40px;
+        height: auto;
+    }
 
-        header:has(.dropdown input[type="checkbox"]:checked) #chevron-up {
-            display: inline-block;
-        }
+    header:has(.dropdown input[type="checkbox"]:checked) #chevron-down {
+        display: none;
+    }
 
-        #main-photo {
-            margin-top: -1vh;
-            height: 50vh;
-            /* background-size: contain; */
-        }
+    header:has(.dropdown input[type="checkbox"]:checked) #chevron-up {
+        display: inline-block;
+    }
 
-        .about {
-            font-size: 20px;
-        }
+    #main-photo {
+        margin-top: -1vh;
+        height: 50vh;
+        /* background-size: contain; */
+    }
 
-        /* .about {
+    .about {
+        font-size: 12px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+
+    /* .about {
             height: 50%;
             width: 50%;
             padding-top: 4vh;
@@ -765,7 +775,21 @@ button a {
             bottom: 5vh;
         } */
 
+}
+
+@media (max-width: 400px) {
+    #logo a {
+        font-size: 20px;
     }
 
+    .nav-item {
+        line-height: 30px;
+    }
 
-    /* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
+    footer {
+        padding-top: 1.5vh;
+    }
+}
+
+
+/* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
