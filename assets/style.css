@@ -86,21 +86,6 @@ nav {
     color: #002962;
 }
 
-/* dropdown for media query on smaller screens - hide button on larger screens */
-.dropdown {
-    display: none;
-}
-
-/* to hide checkbox */
-.dropdown input[type="checkbox"] {
-    appearance: none;
-}
-
-.dropdown {
-    border: none;
-    background-color: transparent;
-}
-
 #main-photo {
     /* so main photo covers screen height */
     height: 88vh;
@@ -119,8 +104,6 @@ nav {
     width: 50%;
     height: 100%;
     margin-top: 12vh;
-    /* margin-top: 12vh; */
-    /* position: relative; */
 }
 
 /* club name and tagline divs */
@@ -129,16 +112,10 @@ nav {
     height: 50%;
     font-family: 'Tinos', sans-serif;
     font-size: 40px;
-    /* text-align: center; */
     color: #f6f5f4;
     border-radius: 25px;
     display: table;
     padding: 10px;
-    /* box-sizing: border-box; */
-    /* position: absolute; */
-    /* padding-top: 8vh; */
-    /* padding-left: 2vw; */
-    /* padding-right: 2vw; */
     text-transform: uppercase;
 }
 
@@ -147,13 +124,6 @@ nav {
     margin-top: 10vh;
     margin-left: 10vw;
     display: table;
-    /* top: 6vh;
-    left: 20%;
-    background-color: rgba(160, 0, 28, 0.6); */
-    /* padding-top: 5%;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    text-transform: uppercase; */
 
     animation: title-color 5s forwards;
 }
@@ -179,9 +149,6 @@ nav {
 #tagline {
     margin-bottom: 10vh;
     margin-left: 30vw;
-    /* bottom: 6vh;
-    left: 50%; */
-    /* z-index: 1; */
     background-color: rgba(24, 48, 89, 0.7);
     display: table;
 
@@ -207,12 +174,11 @@ nav {
     background-color: #F6F4F3;
     color: #F6F4F3;
     font-size: 16px;
-    /* height: 50vh; */
     width: 100%;
     text-align: center;
 }
 
-#address-hours div {
+.address-hours-div {
     height: 40vh;
     width: 25%;
     padding: 3vw;
@@ -269,7 +235,6 @@ footer {
     background-color: #F6F4F3;
     font-family: 'Biryani', sans-serif;
     padding-top: 5vh;
-    /* padding-bottom: 2vh; */
     border-top: 1px solid #002962;
     color: #a0001c;
 }
@@ -293,8 +258,6 @@ footer li {
 footer>ul {
     display: flex;
     justify-content: space-evenly;
-    /* margin-top: 3vh; */
-    /* height: 50px; */
 }
 
 footer a {
@@ -358,7 +321,6 @@ footer a:hover {
 /* individual comedian boxes */
 .comedian {
     height: 300px;
-    /* width: 25%; */
     width: 300px;
     padding: 20px;
     border-radius: 25px;
@@ -529,10 +491,8 @@ input[type=submit]:hover {
 }
 
 #thankyou p {
-    /* need to change this colour to the same blue as the others */
-    color: navy;
+    color: #002962;
     text-align: center;
-    /* I had this set to margin: 0 50px but then this overrode the id below  */
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -549,14 +509,11 @@ input[type=submit]:hover {
 #return-to-home-outer {
     width: 100%;
     height: 100px;
-    /* position: relative; */
     text-align: center;
     margin-top: 50px;
 }
 
 #return-to-home {
-    /* position: absolute; */
-    /* margin: auto 0; */
     height: 50px;
     width: 25%;
     border: 1px solid navy;
@@ -603,15 +560,7 @@ button a {
     #main-photo {
         margin-top: 19vh;
         height: 80vh;
-        /* overflow-x: visible; */
-        /* to stop main photo from being cropped */
-        /* background-size: contain; */
     }
-
-    /* .about {
-        width: 30vw;
-        height: 30vw;
-    } */
 
     #friday {
         margin-top: 115px;
@@ -636,16 +585,30 @@ button a {
     }
 }
 
+@media (max-width:775px) {
+
+    #address-hours {
+        font-size: 14px;
+    }
+
+    audio {
+        width: 80%;
+    }
+}
+
 @media (max-width:750px) {
+
 
     .about {
         font-size: 30px;
-        /* height: 35vw; */
-        /* width: 35vw; */
     }
 
     #address-hours {
         font-size: 2vw;
+    }
+
+    #opening h2 {
+        font-size: 20px;
     }
 
     .comedian {
@@ -676,86 +639,40 @@ button a {
 
     .about {
         font-size: 25px;
-        /* height: 35vw; */
-        /* width: 35vw; */
     }
 
     #address-hours {
         display: inline-block;
         font-size: 2vh;
-        /* margin: 1vh auto; */
     }
 
-    #address-hours div {
+    .address-hours-div {
         width: 90%;
-        /* margin-top: 3vh; */
-        /* margin-bottom: 0; */
         margin: 1vh auto;
-        height: 30vh;
+        height: 32vh;
     }
 
     iframe {
-        height: 30vh;
+        height: 32vh;
     }
 
     #address-hours h3 {
         font-size: 3vh;
     }
 
+    #opening {
+        padding-bottom: 5vh;
+    }
 }
 
-@media (max-width: 525px) {
-
-    nav {
-        min-height: 12vh;
-        height: auto;
-    }
+@media (max-width: 460px) {
 
     #nav-bar {
-        height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        float: right;
-    }
-
-    .nav-item {
-        line-height: 40px;
-        font-size: 20px;
-    }
-
-    #nav-bar a:hover {
-        border: none;
-        padding: 0;
-    }
-
-    .dropdown {
-        display: block;
-        float: right;
-        padding: 20px 50px 0 0;
-        font-size: 25px;
-    }
-
-    #chevron-up {
-        display: none;
-    }
-
-    header:has(.dropdown input[type="checkbox"]:checked) #nav-bar {
-        margin-top: -40px;
-        height: auto;
-    }
-
-    header:has(.dropdown input[type="checkbox"]:checked) #chevron-down {
-        display: none;
-    }
-
-    header:has(.dropdown input[type="checkbox"]:checked) #chevron-up {
-        display: inline-block;
+        font-size: 10px;
     }
 
     #main-photo {
-        margin-top: -1vh;
         height: 50vh;
-        /* background-size: contain; */
     }
 
     .about {
@@ -766,38 +683,35 @@ button a {
         font-size: 12px;
     }
 
-    /* .about {
-            height: 50%;
-            width: 50%;
-            padding-top: 4vh;
-        }
-
-        #title {
-            top: 5vh;
-        }
-
-        #tagline {
-            bottom: 5vh;
-        } */
-
 }
 
 @media (max-width: 420px) {
+
+    nav {
+        height: 16vh;
+    }
+
     #logo a {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .nav-item {
         line-height: 30px;
     }
 
-    /* #main-photo {
-        background: url(/assets/images/wall-crop.webp) no-repeat center center;
-        background-size: cover;
-    } */
+    #main-photo {
+        margin-top: 16vh;
+    }
 
     footer {
         padding-top: 1.5vh;
+    }
+}
+
+@media (max-width: 290px) {
+
+    .nav-item {
+        font-size: 9px;
     }
 }
 
