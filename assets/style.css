@@ -578,7 +578,7 @@ button a {
     }
 
     .comedian p {
-        font-size: 2vw;
+        font-size: 16px;
     }
 
     audio {
@@ -598,7 +598,6 @@ button a {
 }
 
 @media (max-width:750px) {
-
 
     .about {
         font-size: 30px;
@@ -664,41 +663,42 @@ button a {
     #opening {
         padding-bottom: 5vh;
     }
-
 }
 
 @media (max-width: 570px) {
 
+    #friday,
+    #saturday {
+        padding-left: 20px;
+    }
+
+    .comedian-header {
+        font-size: 30px;
+    }
+
+    #friday-comedy,
+    #saturday-comedy {
+        height: 275px;
+        padding: 10px 0;
+    }
+
+    .comedian p {
+        font-size: 12px;
+    }
+
     .comedian img {
         width: 100%;
     }
-
 }
 
 @media (max-width: 460px) {
 
-    #nav-bar {
-        font-size: 10px;
-    }
-
-    #main-photo {
-        height: 50vh;
-    }
-
-    .about {
-        font-size: 12px;
-    }
-
-    footer li {
-        font-size: 12px;
-    }
-
-}
-
-@media (max-width: 420px) {
-
     nav {
         height: 16vh;
+    }
+
+    #nav-bar {
+        font-size: 10px;
     }
 
     #logo a {
@@ -716,6 +716,43 @@ button a {
     footer {
         padding-top: 1.5vh;
     }
+
+    #main-photo {
+        height: 50vh;
+    }
+
+    .about {
+        font-size: 12px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+
+    #friday-comedy,
+    #saturday-comedy {
+        display: inline-block;
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .comedian {
+        width: 90%;
+    }
+
+    .comedian img {
+        width: 50%;
+    }
+
+    #friday {
+        padding-top: 0;
+    }
+
+    #saturday {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 290px) {
@@ -724,6 +761,5 @@ button a {
         font-size: 9px;
     }
 }
-
 
 /* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
