@@ -282,7 +282,6 @@ footer a:hover {
 #friday,
 #saturday {
     height: 40px;
-    display: block;
     padding-left: 50px;
     padding-top: 20px;
     background-color: #f6f5f4;
@@ -324,6 +323,7 @@ footer a:hover {
     width: 300px;
     padding: 20px;
     border-radius: 25px;
+    border: 2px solid #f5f4f3;
 }
 
 #friday-comedy div {
@@ -360,6 +360,7 @@ footer a:hover {
 audio {
     width: 90%;
     height: 40px;
+    /* object-fit: contain; */
 }
 
 /* sign up page background image */
@@ -663,6 +664,15 @@ button a {
     #opening {
         padding-bottom: 5vh;
     }
+
+}
+
+@media (max-width: 570px) {
+
+    .comedian img {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 460px) {
