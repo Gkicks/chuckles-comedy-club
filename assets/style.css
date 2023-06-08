@@ -367,7 +367,7 @@ audio {
 #sign-up {
     width: 100%;
     height: 700px;
-    background: url(/assets/images/flag.jpg) no-repeat center center;
+    background: url(/assets/images/flag.webp) no-repeat center center;
     background-size: cover;
     position: relative;
 }
