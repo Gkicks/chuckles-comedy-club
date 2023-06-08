@@ -20,20 +20,15 @@
         <nav>
             <!-- logo - position left side -->
             <h1 id="logo"><a href="index.html" aria-label="takes you to the homepage">Chuckles</a></h1>
-            <!-- button for screen size less than 672px -->
-            <button class="dropdown">
-                <label for="dropdown-input">
-                    <i id="chevron-down" class="fa-solid fa-chevron-down" style="color: #a0001c;"></i>
-                    <i id="chevron-up" class="fa-solid fa-chevron-up" style="color: #a0001c;"></i>
-                </label>
-                <input type="checkbox" id="dropdown-input">
-            </button>
+
             <ul id="nav-bar">
                 <!-- menu items -->
                 <li class="nav-item"><a href="index.html" aria-label="takes you to the homepage">Home</a>
                 </li>
-                <li class="nav-item"><a href="#find-us" aria-label="takes you to the address section">Find Us</a></li>
-                <li class="nav-item"><a href="#opening" aria-label="takes you to the opening hours section">Opening
+                <li class="nav-item"><a href="index.html#find-us" aria-label="takes you to the address section">Find
+                        Us</a></li>
+                <li class="nav-item"><a href="index.html#opening"
+                        aria-label="takes you to the opening hours section">Opening
                         Hours</a></li>
                 <li class="nav-item"><a href="whatson.html" aria-label="takes you to the what's on page">What's On</a>
                 </li>
@@ -43,43 +38,47 @@
         </nav>
     </header>
     <!-- sign up form -->
-    <section id="sign-up">
-        <div id="sign-up-form">
-            <h3 id="sign-up-header">Sign up to our newsletter, to receive emails and special offers, to upcoming events!
-            </h3>
-            <form action="thankyou.html">
-                <!-- personal details -->
-                <div id="personal-details">
-                    <label for="fname">First Name:</label>
-                    <input type="text" name="first_name" id="fname" placeholder="First Name" required>
-                    <label for="lname">Surname:</label>
-                    <input type="text" name="last_name" id="lname" placeholder="Surname" required>
-                    <label for="email">Email Address:</label>
-                    <input type="email" name="user_email" id="email" placeholder="Email" required>
-                </div>
-                <!-- where did you hear about us dropdown -->
-                <div id="hear">
-                    <label for="where-hear">Where did you hear about us?</label>
-                    <select name="where_hear" id="where-hear">
-                        <option value="search_engine">Search Engine</option>
-                        <option value="word_of_mouth">Word of Mouth</option>
-                        <option value="social_media">Social Media</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <!-- agree to marketing checkbox -->
-                <div id="agree">
-                    <input type="checkbox" name="allow_marketing" id="marketing" value="yes" checked>
-                    <label for="marketing">I agree to Chuckles contacting me with personalised news, and offers, that
-                        may be
-                        of interest to me</label>
-                </div>
-                <!-- submit button -->
-                <div id="submit">
-                    <input type="submit" value="Submit Form">
-                </div>
-            </form>
-        </div>\
+    <section>
+        <div id="sign-up">
+            <div id="sign-up-form">
+                <h3 id="sign-up-header">Sign up to our newsletter, to receive emails and special offers, to upcoming
+                    events!
+                </h3>
+                <form action="thankyou.html">
+                    <!-- personal details -->
+                    <div id="personal-details">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="first_name" id="fname" placeholder="First Name" required>
+                        <label for="lname">Surname:</label>
+                        <input type="text" name="last_name" id="lname" placeholder="Surname" required>
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="user_email" id="email" placeholder="Email" required>
+                    </div>
+                    <!-- where did you hear about us dropdown -->
+                    <div id="hear">
+                        <label for="where-hear">Where did you hear about us?</label>
+                        <select name="where_hear" id="where-hear">
+                            <option value="search_engine">Search Engine</option>
+                            <option value="word_of_mouth">Word of Mouth</option>
+                            <option value="social_media">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <!-- agree to marketing checkbox -->
+                    <div id="agree">
+                        <input type="checkbox" name="allow_marketing" id="marketing" value="yes" checked>
+                        <label for="marketing">I agree to Chuckles contacting me with personalised news, and offers,
+                            that
+                            may be
+                            of interest to me</label>
+                    </div>
+                    <!-- submit button -->
+                    <div id="submit">
+                        <input type="submit" value="Submit Form">
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
     <!-- footer with social media links and copyright -->
     <footer>
@@ -95,9 +94,7 @@
                 <a href="https://www.Instagram.com" target="_blank">Instagram <i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-        <br>
-        <!-- copyright -->
-        <div id="copyright">&copy; Gail Kicks 2023</div>
+
     </footer>
     <!-- font awesome script  -->
     <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>

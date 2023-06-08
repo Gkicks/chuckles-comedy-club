@@ -87,14 +87,12 @@ nav {
 }
 
 #main-photo {
-    /* so main photo covers screen height */
-    height: 88vh;
+    height: auto;
     width: 100%;
     background: url(images/wall.webp) no-repeat right top;
     background-size: cover;
-    /* position: relative; */
     /* keep background image in place when scrolling */
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
 }
 
 #main-photo-inner {
@@ -179,12 +177,12 @@ nav {
 }
 
 .address-hours-div {
-    height: 40vh;
+    height: 32vh;
     width: 25%;
     padding: 3vw;
     border-radius: 25px;
     background-color: #a0001c;
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-bottom: 5vh;
 }
 
@@ -194,6 +192,9 @@ h2 {
 
 /* address */
 #find-us {
+    display: flex;
+    flex-direction: column;
+    /* height: auto; */
     font-size: 20px;
 }
 
@@ -207,7 +208,7 @@ h2 {
 iframe {
     border-radius: 25px;
     width: 100%;
-    height: 40vh;
+    height: 32vh;
 }
 
 /* opening hours */
@@ -234,7 +235,7 @@ footer {
     width: 100%;
     background-color: #F6F4F3;
     font-family: 'Biryani', sans-serif;
-    padding-top: 5vh;
+    padding-top: 3vh;
     border-top: 1px solid #002962;
     color: #a0001c;
 }
@@ -281,14 +282,14 @@ footer a:hover {
 /* which day section */
 #friday,
 #saturday {
-    height: 40px;
+    height: 5vh;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 2vh;
     background-color: #f6f5f4;
 }
 
 #friday {
-    margin-top: 75px;
+    margin-top: 12vh;
     color: #002962;
 }
 
@@ -366,19 +367,23 @@ audio {
 /* sign up page background image */
 #sign-up {
     width: 100%;
-    height: 700px;
+    height: 88vh;
+    margin-top: 12vh;
+    /* padding: 10% 0; */
     background: url(/assets/images/flag.webp) no-repeat center center;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+    /* background-attachment: scroll; */
 }
 
 /* sign up form */
 #sign-up-form {
     width: 70%;
-    min-height: 550px;
+    height: 75%;
     background-color: rgba(246, 245, 244, 0.9);
     margin-left: 15%;
-    margin-top: 100px;
+    margin-top: 3vh;
+    padding-bottom: 3%;
     position: absolute;
     border-radius: 25px;
 }
@@ -395,9 +400,9 @@ form {
     padding: 50px 50px 0 50px;
     color: #002962;
     font-family: "tinos", sans-serif;
+    font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
-    font-size: 3vw;
 }
 
 /* name and email address inputs */
@@ -560,11 +565,11 @@ button a {
 
     #main-photo {
         margin-top: 19vh;
-        height: 80vh;
+        /* height: 80vh; */
     }
 
     #friday {
-        margin-top: 115px;
+        margin-top: 20vh;
     }
 
     #friday-comedy,
@@ -584,9 +589,45 @@ button a {
     audio {
         height: 30px;
     }
+
+    #sign-up {
+        /* position: relative; */
+        height: 80vh;
+        margin-top: 20vh;
+        /* padding-top: 75px; */
+    }
+
+    #sign-up-form {
+        height: 70%;
+    }
+
+    #sign-up-header {
+        padding: 10px 50px 0 50px;
+        font-size: 25px;
+    }
+
+    form {
+        font-size: 20px;
+    }
+
+    /* #personal-details label {
+        font-size: 20px;
+    } */
+
+    #personal-details input {
+        height: 30px;
+    }
+
+    #hear select {
+        height: 30px;
+    }
+
+    #submit input {
+        height: 40px;
+    }
 }
 
-@media (max-width:775px) {
+@media (max-width:780px) {
 
     #address-hours {
         font-size: 14px;
@@ -595,6 +636,16 @@ button a {
     audio {
         width: 80%;
     }
+
+    /* #sign-up-form {
+        position: relative;
+        margin-top: 75px;
+        padding-top: 75px;
+    } */
+
+    /* #sign-up-header {
+        padding-top: 75px;
+    } */
 }
 
 @media (max-width:750px) {
@@ -625,9 +676,25 @@ button a {
         height: 300px;
     }
 
-    #sign-up-form {
-        position: relative;
-        margin-top: 75px;
+    #sign-up-header {
+        font-size: 20px;
+    }
+
+    form {
+        font-size: 15px;
+    }
+
+    /* #personal-details label {
+            font-size: 20px;
+        } */
+
+    #personal-details input {
+        height: 25px;
+    }
+
+    #hear select {
+        height: 25px;
+        padding-top: 2px;
     }
 }
 
@@ -649,7 +716,7 @@ button a {
     .address-hours-div {
         width: 90%;
         margin: 1vh auto;
-        height: 32vh;
+        height: auto;
     }
 
     iframe {
@@ -662,6 +729,10 @@ button a {
 
     #opening {
         padding-bottom: 5vh;
+    }
+
+    form {
+        padding: 20px 30px 0 30px;
     }
 }
 
@@ -717,9 +788,9 @@ button a {
         padding-top: 1.5vh;
     }
 
-    #main-photo {
-        height: 50vh;
-    }
+    /* #main-photo {
+        height: auto;
+    } */
 
     .about {
         font-size: 12px;
@@ -732,14 +803,16 @@ button a {
     #friday-comedy,
     #saturday-comedy {
         display: inline-block;
-        width: 90%;
+        /* width: 90%; */
         height: auto;
         margin-left: 10px;
         margin-right: 10px;
     }
 
     .comedian {
-        width: 90%;
+        width: 80%;
+        /* to center comedian div */
+        margin: 0 auto;
     }
 
     .comedian img {
@@ -747,7 +820,7 @@ button a {
     }
 
     #friday {
-        padding-top: 0;
+        margin-top: 16vh;
     }
 
     #saturday {
