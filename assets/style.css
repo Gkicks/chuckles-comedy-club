@@ -489,11 +489,16 @@ input[type=submit]:hover {
     transform: scale(1.1);
 }
 
+#thankyou {
+    height: auto;
+    margin-top: 20vh;
+}
+
 #thankyou h2 {
     font-size: 500%;
     text-align: center;
     color: #a0001c;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 #thankyou p {
@@ -501,6 +506,7 @@ input[type=submit]:hover {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 50px;
 }
 
 #first-newsletter {
@@ -514,14 +520,15 @@ input[type=submit]:hover {
 
 #return-to-home-outer {
     width: 100%;
-    height: 100px;
+    height: auto;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 8vh;
 }
 
 #return-to-home {
     height: 50px;
-    width: 25%;
+    width: 50%;
     border: 1px solid navy;
     border-radius: 999px;
     font-size: 100%;
@@ -625,6 +632,14 @@ button a {
     #submit input {
         height: 40px;
     }
+
+    #thankyou {
+        margin-top: 25vh;
+    }
+
+    #return-to-home-outer {
+        margin-bottom: 5vh;
+    }
 }
 
 @media (max-width:780px) {
@@ -637,9 +652,9 @@ button a {
         width: 80%;
     }
 
-    /* #sign-up-form {
-        height: 550px;
-    } */
+    #sign-up {
+        height: 600px;
+    }
 
 
     /* #sign-up-header {
@@ -845,6 +860,14 @@ button a {
 
     #personal-details input {
         width: 200px;
+    }
+
+    #thankyou {
+        margin-top: 20vh;
+    }
+
+    #return-to-home-outer {
+        margin-bottom: 4vh;
     }
 }
 
