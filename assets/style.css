@@ -164,7 +164,7 @@ nav {
     }
 }
 
-/* adress, map and opening hours section */
+/* address, map and opening hours section */
 #address-hours {
     display: flex;
     justify-content: space-evenly;
@@ -177,7 +177,7 @@ nav {
 }
 
 .address-hours-div {
-    height: 32vh;
+    height: 250px;
     width: 25%;
     padding: 3vw;
     border-radius: 25px;
@@ -208,7 +208,7 @@ h2 {
 iframe {
     border-radius: 25px;
     width: 100%;
-    height: 32vh;
+    height: 250px;
 }
 
 /* opening hours */
@@ -367,7 +367,7 @@ audio {
 /* sign up page background image */
 #sign-up {
     width: 100%;
-    height: 88vh;
+    height: 550px;
     margin-top: 12vh;
     /* padding: 10% 0; */
     background: url(/assets/images/flag.webp) no-repeat center center;
@@ -379,7 +379,7 @@ audio {
 /* sign up form */
 #sign-up-form {
     width: 70%;
-    height: 75%;
+    height: auto;
     background-color: rgba(246, 245, 244, 0.9);
     margin-left: 15%;
     margin-top: 3vh;
@@ -592,17 +592,17 @@ button a {
 
     #sign-up {
         /* position: relative; */
-        height: 80vh;
+        /* height: 80vh; */
         margin-top: 20vh;
         /* padding-top: 75px; */
     }
 
     #sign-up-form {
-        height: 70%;
+        /* height: 70%; */
     }
 
     #sign-up-header {
-        padding: 10px 50px 0 50px;
+        /* padding: 10px 50px 0 50px; */
         font-size: 25px;
     }
 
@@ -638,10 +638,9 @@ button a {
     }
 
     /* #sign-up-form {
-        position: relative;
-        margin-top: 75px;
-        padding-top: 75px;
+        height: 550px;
     } */
+
 
     /* #sign-up-header {
         padding-top: 75px;
@@ -687,6 +686,10 @@ button a {
     /* #personal-details label {
             font-size: 20px;
         } */
+
+    #personal-details label {
+        width: 250px;
+    }
 
     #personal-details input {
         height: 25px;
@@ -805,8 +808,8 @@ button a {
         display: inline-block;
         /* width: 90%; */
         height: auto;
-        margin-left: 10px;
-        margin-right: 10px;
+        /* margin-left: 10px; */
+        /* margin-right: 10px; */
     }
 
     .comedian {
@@ -826,6 +829,23 @@ button a {
     #saturday {
         margin-top: 20px;
     }
+
+    #sign-up {
+        margin-top: 16vh;
+    }
+
+    #sign-up-form {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #sign-up-header {
+        padding: 25px 25px 0 25px;
+    }
+
+    #personal-details input {
+        width: 200px;
+    }
 }
 
 @media (max-width: 290px) {
@@ -837,6 +857,10 @@ button a {
     footer li {
         font-size: 9px;
     }
+
+    /* #sign-up-form {
+        height: 600px;
+    } */
 }
 
 /* < !-- font awesome script -->< !-- <script src="https://kit.fontawesome.com/f0e297bd7f.js" crossorigin="anonymous"></script>--> */
