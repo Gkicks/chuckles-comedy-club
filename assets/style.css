@@ -336,17 +336,17 @@ footer a:hover {
 }
 
 /* comedian's names */
-.comedian p {
+.comedian h4 {
     color: #f6f5f4;
     font-family: "biryani", sans-serif;
     padding-bottom: 10px;
 }
 
-#friday-comedy p {
+#friday-comedy h4 {
     background-color: #a0001c;
 }
 
-#saturday-comedy p {
+#saturday-comedy h4 {
     background-color: #002962;
 }
 
@@ -583,7 +583,7 @@ button a {
         width: 250px;
     }
 
-    .comedian p {
+    .comedian h4 {
         font-size: 16px;
     }
 
@@ -662,7 +662,7 @@ button a {
         width: 200px;
     }
 
-    .comedian p {
+    .comedian h4 {
         padding-bottom: 5px;
     }
 
@@ -752,7 +752,7 @@ button a {
         padding: 10px 0;
     }
 
-    .comedian p {
+    .comedian h4 {
         font-size: 12px;
     }
 
