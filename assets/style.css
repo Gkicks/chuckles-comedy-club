@@ -447,7 +447,8 @@ form {
     height: 40px;
     text-align: center;
     border-radius: 25px;
-    border: 1px solid #a0001c;
+    /* used outline rather than border to stop border turning black when different option selected */
+    outline: 1px solid #a0001c;
     font-family: "biryani", sans-serif;
     font-weight: 600;
     color: #002962;
