@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chuckles Comedy Club
 
 The Chuckles Comedy Club website is an information website, for a comedy club specialising in American comics, based in London, UK.
@@ -6,6 +7,8 @@ This website is designed to provide information about the comedy club such as wh
 ![am-i-responsive](assets/readme-images/am-i-responsive.png)
 
 Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/chuckles-comedy-club/>)
+=======
+>>>>>>> 6e752238f99259c165804ddcf31d47ef38d6f2a5
 
 # Contents
 
