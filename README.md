@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chuckles Comedy Club
 
 The Chuckles Comedy Club website is an information website, for a comedy club specialising in American comics, based in London, UK.
@@ -7,37 +6,37 @@ This website is designed to provide information about the comedy club such as wh
 ![am-i-responsive](assets/readme-images/am-i-responsive.png)
 
 Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/chuckles-comedy-club/>)
-=======
->>>>>>> 6e752238f99259c165804ddcf31d47ef38d6f2a5
 
 # Contents
 
 * [User Experience](#user-experience-ux)
     * [User Stories](#user-stories)
 * [Design](#design)
-    * [Color Scheme]
-	* [Typography]
-	* [Imagery]
-	* [Wireframes]
-* [Features]	
-	* [General Features on Each Page]
-    * [Future Implementations]
-	* [Accessibility]
-* [Technologies Used]
-    * [Languages Used]
-	* [Frameworks, Libraries and Programs Used]
-* [Deployment and Local Development]	
-	* [Deployment]
-    * [Local Development]
-        * [How to Fork]
-        * [How to Clone]
-* [Testing]	
-* [Credits]
-    * [Code Used]
-    * [Content]
-    * [Media]
-    * [Other]
-    * [Acknowledgements]
+    * [Color Scheme](#colour-scheme)
+	* [Typography](#typography)
+	* [Imagery](#imagery)
+	* [Wireframes](#wireframes)
+* [Features](#features)	
+	* [General Features on Each Page](#existing-features)
+    * [Future Implementations](#future-implications)
+	* [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+	* [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+* [Deployment and Local Development](#deployment-and-local-development)	
+	* [Deployment](#deployment)
+    * [Local Development](#local-development)
+        * [How to Fork](#how-to-fork)
+        * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+* [Credits](#credits)
+    * [Code Used](#code-used)
+    * [Content](#content)
+    * [Media](#media)
+    * [Other](#other)
+    * [Acknowledgements](#acknowledgements)
+
+[Back to top](#chuckles-comedy-club)
 
 # User Experience (UX)
 
@@ -78,6 +77,8 @@ Chuckles Comedy Club is a venue where the USP is that the performers are all Ame
 
 * Ability to check who is performing in the upcoming week
 * To link into the club’s social media
+
+[Back to top](#chuckles-comedy-club)
 
 # Design
 
@@ -152,6 +153,8 @@ View desktop wireframes on the Figma site: [Desktop](https://www.figma.com/file/
 ![wireframe screenshot for mobile website](assets/readme-images/wireframe-mobile.png)
 
 View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rPmex36OVOWyKsoamizYnI/Untitled?type=design&node-id=1%3A68&mode=design&t=vhfg9gbQQrPA39VQ-1)
+
+[Back to top](#chuckles-comedy-club)
 
 # Features
 
@@ -230,6 +233,8 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
     * I used https://webaim.org/resources/contrastchecker/ to check the contrasts of the colours chosen. This passed for both combinations of red and white (contrast ratio 7
 .62:1) and blue and white (contrast ratio 12.82:1). This failed for the blue and red combination (contrast ratio 1.68:1) so this was not used in the website
 
+[Back to top](#chuckles-comedy-club)
+
 # Technologies Used
 
 ## Languages Used
@@ -250,6 +255,8 @@ HTML, CSS were mainly used to create this website. I used a small section of Jav
 * Google Dev Tools – Used to troubleshoot and debug
 * Google Fonts - To import the fonts used on the website
 * Spotify – The library my audio clips were taken from
+
+[Back to top](#chuckles-comedy-club)
 
 # Deployment and Local Development
 
@@ -284,6 +291,8 @@ This site is deployed using Github pages:
 * Open a new terminal in your code editor and change the working directory to the location you want to use for the clone directory (you can use the cd command to change directories)
 * When you are in your chosen directory type “git clone” followed by pasting in the URL you copied in GitHub
 * Press enter to execute the command and your clone will be created
+
+[Back to top](#chuckles-comedy-club)
 
 # Testing
 
@@ -386,6 +395,8 @@ I used Lighthouse, within the Chrome developer tools, to check the performance, 
 
 None thatI know of
 
+[Back to top](#chuckles-comedy-club)
+
 # Credits
 
 ## Code Used
@@ -449,3 +460,5 @@ I would like to acknowledge the following people for their help in completing my
 * The Tutor Support team at Code Institute
 * The Code Institute Slack community
 * Kera Cudmore for her fantastic README presentation
+
+[Back to top](#chuckles-comedy-club)
