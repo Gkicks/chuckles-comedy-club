@@ -208,7 +208,7 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 
 ![Sign up screenshot](assets/readme-images/signup.png)
 
-### Thank you
+### Thank You
 
 * The thank you page is displayed when the sign up form is submitted. This gives the user confirmation that their request has been received
 * The thank you page informs the user that they will be redirected back to the home page in five seconds and also gives the option to press a ‘return to home’ button to return to the index.html page
