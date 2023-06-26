@@ -10,31 +10,31 @@ Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/c
 # Contents
 
 * [User Experience](#user-experience-ux)
-    * [User Stories](#user-stories)
+  * [User Stories](#user-stories)
 * [Design](#design)
-    * [Color Scheme](#colour-scheme)
-	* [Typography](#typography)
-	* [Imagery](#imagery)
-	* [Wireframes](#wireframes)
-* [Features](#features)	
-	* [General Features on Each Page](#existing-features)
-    * [Future Implementations](#future-implications)
-	* [Accessibility](#accessibility)
+  * [Color Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+* [Features](#features)
+  * [General Features on Each Page](#existing-features)
+  * [Future Implementations](#future-implications)
+  * [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-	* [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
-* [Deployment and Local Development](#deployment-and-local-development)	
-	* [Deployment](#deployment)
-    * [Local Development](#local-development)
-        * [How to Fork](#how-to-fork)
-        * [How to Clone](#how-to-clone)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+* [Deployment and Local Development](#deployment-and-local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 * [Testing](#testing)
 * [Credits](#credits)
-    * [Code Used](#code-used)
-    * [Content](#content)
-    * [Media](#media)
-    * [Other](#other)
-    * [Acknowledgements](#acknowledgements)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Other](#other)
+  * [Acknowledgements](#acknowledgements)
 
 [Back to top](#chuckles-comedy-club)
 
@@ -85,8 +85,8 @@ Chuckles Comedy Club is a venue where the USP is that the performers are all Ame
 ## Colour Scheme
 
 * Three colours have been used throughout the website - #F6F4F3, #002962 and #a0001c
-* I chose colours to reflect those of the American flag – red, white and blue 
-* I began with a colour pallette from the website Coolors that reflected these colours: 
+* I chose colours to reflect those of the American flag – red, white and blue
+* I began with a colour pallette from the website Coolors that reflected these colours:
 
 ![Coolers red to blue nine colour image](assets/readme-images/coolers-img-1.png)
 
@@ -100,13 +100,13 @@ Chuckles Comedy Club is a venue where the USP is that the performers are all Ame
 
 ![fonjoy screenshot](assets/readme-images/fontjoy.png)
 
-* To give interest to the social media links I took icons from the website https://fontawesome.com/icons 
+* To give interest to the social media links I took icons from the website <https://fontawesome.com/icons>
 
 ## Imagery
 
 ### Favicon
 
-* I created the favicon from the website https://www.favicon.cc
+* I created the favicon from the website <https://www.favicon.cc>
 
 ![favicon](assets/readme-images/favicon.png)
 
@@ -120,11 +120,11 @@ Chuckles Comedy Club is a venue where the USP is that the performers are all Ame
 
 ### Map
 
-* I used the website https://www.maps.ie/create-google-map/ to generate a map of the location of the club and to create an iframe to embed in my index.html page
+* I used the website <https://www.maps.ie/create-google-map/> to generate a map of the location of the club and to create an iframe to embed in my index.html page
 
 ### Comedian and Flag Images
 
-* These  images were all found on the website https://unsplash.com/. 
+* These  images were all found on the website <https://unsplash.com/>.
 
 All images were converted to .webp format to reduce file size and therfore speed up loading times
 
@@ -146,7 +146,7 @@ All images were converted to .webp format to reduce file size and therfore speed
 
 ![wireframe screenshot for signup.html](assets/readme-images/wireframe-sighup-desktop.png)
 
-View desktop wireframes on the Figma site: [Desktop](https://www.figma.com/file/g8UMWjEqGGzqNK4ILENLc6/chuckles-desktop?type=design&node-id=5%3A134&mode=design&t=R67yqhAAFlnPz3b1-1) 
+View desktop wireframes on the Figma site: [Desktop](https://www.figma.com/file/g8UMWjEqGGzqNK4ILENLc6/chuckles-desktop?type=design&node-id=5%3A134&mode=design&t=R67yqhAAFlnPz3b1-1)
 
 ### Mobile
 
@@ -208,12 +208,12 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 
 ![Sign up screenshot](assets/readme-images/signup.png)
 
-### Thankyou
+### Thank you
 
 * The thank you page is displayed when the sign up form is submitted. This gives the user confirmation that their request has been received
-* The thankyou page informs the user that they will be redirected back to the home page in five seconds and also gives the option to press a ‘return to home’ button to return to the index.html page
+* The thank you page informs the user that they will be redirected back to the home page in five seconds and also gives the option to press a ‘return to home’ button to return to the index.html page
 
-![Thankyou screenshot](assets/readme-images/thankyou.png)
+![Thank you screenshot](assets/readme-images/thankyou.png)
 
 ## Future Implications
 
@@ -227,10 +227,10 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 * All pages use semantic html
 * Aria-labels were used to improve accessibility for those using assistive technology
 * I used the Google Chrome extensions:
-    * Wave Evaluation Tool – no errors were detected
-    * Web Disability Simulator – simulated the website for people with sight, mobility, reading and writing and concentration disabilities to view the webpage how others could see it. There were no concerns noted in these simulations
-    * Screen Reader – Simulated how the website experience would be for a user using a screen reader. There were no concerns noted using this simulation
-    * I used https://webaim.org/resources/contrastchecker/ to check the contrasts of the colours chosen. This passed for both combinations of red and white (contrast ratio 7
+  * Wave Evaluation Tool – no errors were detected
+  * Web Disability Simulator – simulated the website for people with sight, mobility, reading and writing and concentration disabilities to view the webpage how others could see it. There were no concerns noted in these simulations
+  * Screen Reader – Simulated how the website experience would be for a user using a screen reader. There were no concerns noted using this simulation
+  * I used <https://webaim.org/resources/contrastchecker/> to check the contrasts of the colours chosen. This passed for both combinations of red and white (contrast ratio 7
 .62:1) and blue and white (contrast ratio 12.82:1). This failed for the blue and red combination (contrast ratio 1.68:1) so this was not used in the website
 
 [Back to top](#chuckles-comedy-club)
@@ -265,7 +265,7 @@ HTML, CSS were mainly used to create this website. I used a small section of Jav
 This site is deployed using Github pages:
 
 * *Sign up and login to GitHub
-* Find the GitHub repository https://github.com/Gkicks/chuckles-comedy-club.git
+* Find the GitHub repository <https://github.com/Gkicks/chuckles-comedy-club.git>
 * Click “settings”
 * In the lefthand navigation panel locate and click “pages”
 * Change the branch from “none” to “main”
@@ -277,17 +277,17 @@ This site is deployed using Github pages:
 ### How to Fork
 
 * Sign up and login to GitHub
-* Find the GitHub repository https://github.com/Gkicks/chuckles-comedy-club.git
+* Find the GitHub repository <https://github.com/Gkicks/chuckles-comedy-club.git>
 * Locate the “fork” button which is located towards the top of the page. Click this button
 
 ### How to Clone
 
 * Sign up and login to GitHub
-* Find the GitHub repository https://github.com/Gkicks/chuckles-comedy-club.git
+* Find the GitHub repository <https://github.com/Gkicks/chuckles-comedy-club.git>
 * Locate the “<> Code” button and click this. This will bring up a new panel
 * Click the local tab
 * Decide if you would like to clone with HTTPS, SSH or GitHub CLI – copy the link shown under the one of your choosing
-* Open your code editor 
+* Open your code editor
 * Open a new terminal in your code editor and change the working directory to the location you want to use for the clone directory (you can use the cd command to change directories)
 * When you are in your chosen directory type “git clone” followed by pasting in the URL you copied in GitHub
 * Press enter to execute the command and your clone will be created
@@ -297,7 +297,7 @@ This site is deployed using Github pages:
 # Testing
 
 I tested the website in the following browsers:
-	
+
 * Chrome
 * Edge
 * Firefox
@@ -326,11 +326,11 @@ I ran my HTML and CSS through the WC3 Validators. These were the errors that wer
 
 ![screenshot url index](assets/readme-images/url-index.png)
 
-* The validator showed a warning that my code lacked headings. I solved this by changing a <p> section to an <h2>
+* The validator showed a warning that my code lacked headings. I solved this by changing a p section to an h2
 
 ![screenshot p to h2](assets/readme-images/p-h2-index.png)
 
-* There were other minor issue found, such as there being an extra </li> in my code, or a space in an id, that were resolved striaght away
+* There were other minor issues found, such as there being an extra /li in my code, or a space in an id, that were resolved straight away
 
 The website now passes all WC3 validation for each page:  
 
@@ -374,26 +374,26 @@ I used Lighthouse, within the Chrome developer tools, to check the performance, 
 
 ### Resolved Bugs
 
-* The links in the navigation bar and footer were ‘jerky’ when hovered over. This was due to a border being added when the user hovers over the link. 
-    * Solution – I added a border to all the links and gave this border the same attributes as the hover border, except the colour, which matched the background colour so it didn’t display
+* The links in the navigation bar and footer were ‘jerky’ when hovered over. This was due to a border being added when the user hovers over the link.
+  * Solution – I added a border to all the links and gave this border the same attributes as the hover border, except the colour, which matched the background colour so it didn’t display
 * The hero image was taking a long time to download
-    * Solution – initially I added a preload instuction into the head of the html. I took this advice from the website wpspeedmatters.com/speed-up-background-images/. However, on further reasearch, I realised this wasn’t best practice and so removed this and focused on reducing the file size and converting the jpeg to webp. I also added loading=”lazy” to iframe to free up processing time for main-photo
+  * Solution – initially I added a preload instuction into the head of the html. I took this advice from the website wpspeedmatters.com/speed-up-background-images/. However, on further reasearch, I realised this wasn’t best practice and so removed this and focused on reducing the file size and converting the jpeg to webp. I also added loading=”lazy” to iframe to free up processing time for main-photo
 * The nav bar was quickly distorting on smaller screens
-    * Solution – I changed the display to flex
+  * Solution – I changed the display to flex
 * There was an area of blank screen to the right side of each page
-    * Solution – I added overflow-x: hidden to the body and html, using css
+  * Solution – I added overflow-x: hidden to the body and html, using css
 * Pressing the ‘submit’ button in signup.html was not taking the user to the thankyou.html page
-    * Solution - Following discussion with my mentor I removed method:post (this is only needed if there is a backend database in place)
+  * Solution - Following discussion with my mentor I removed method:post (this is only needed if there is a backend database in place)
 * The border, on the select element of signup.html, was turning black when the option was changed
-    * Solution – I changed the border to an outline, following advice from the website https://stackoverflow.com/questions/492627/change-border-color-on-select-html-form
+  * Solution – I changed the border to an outline, following advice from the website <https://stackoverflow.com/questions/492627/change-border-color-on-select-html-form>
 * Although the background image, on the signup.html page, was loading from app.codeacademy this was not loading on the deployed site
-    * Solution - With help from Tutor Support I found there was a / in front of asset, in my filepath, that shouldn’t have been there. This was removed
+  * Solution - With help from Tutor Support I found there was a / in front of asset, in my filepath, that shouldn’t have been there. This was removed
 * The audio elements were playing over each other
-    * Solution – I copied JavaScript code from the website https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript
+  * Solution – I copied JavaScript code from the website <https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript>
 
 ### Unresolved Bugs
 
-None thatI know of
+None that I know of
 
 [Back to top](#chuckles-comedy-club)
 
@@ -401,7 +401,7 @@ None thatI know of
 
 ## Code Used
 
-1. 
+1.
         document.addEventListener('play', function (e) {
             var audios = document.getElementsByTagName('audio');
             for (var i = 0, len = audios.length; i < len; i++) {
@@ -413,7 +413,7 @@ None thatI know of
 
 This code was taken from the website <https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript> and was used for the audio elements so that, when another audio was played, the current one playing would stop
 
-1. 
+1.
 
 ![Screenshot of code used for automatic redirect](assets/readme-images/credit-auto-redirect-thankyou.png)
 
@@ -440,7 +440,7 @@ The comedians used for my audio clips were:
 ## Other
 
 I used the following resources to expand my knowledge of html and css:
-	
+
 * The Code Institute lessons, including the LoveRunning project
 * The Ultimate 2023 Fullstack Web Developer Bootcamp on Udemy
 * webdesign.tutsplus.com
