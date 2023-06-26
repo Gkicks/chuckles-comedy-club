@@ -107,7 +107,7 @@ nav {
     height: 50%;
     font-family: 'Tinos', sans-serif;
     font-size: 40px;
-    color: #f6f5f4;
+    color: #f6f4f3;
     border-radius: 25px;
     display: table;
     padding: 10px;
@@ -285,7 +285,7 @@ footer a:hover {
     height: 5vh;
     padding-left: 50px;
     padding-top: 2vh;
-    background-color: #f6f5f4;
+    background-color: #f5f4f3;
 }
 
 #friday {
@@ -337,7 +337,7 @@ footer a:hover {
 
 /* comedian's names */
 .comedian h3 {
-    color: #f6f5f4;
+    color: #f6f4f3;
     font-family: "biryani", sans-serif;
     padding-bottom: 10px;
 }
