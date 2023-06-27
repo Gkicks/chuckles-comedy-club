@@ -14,6 +14,10 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 
+    <!-- this code was taken from the website https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript>:
+    document.addEventListener('play', function (e) {
+    var audios = document.getElementsByTagName('audio');
+    for (var i = 0, len = audios.length; i < len; i++) { if (audios[i] !=e.target) { audios[i].pause(); } } }, true); -->
     <script>
         document.addEventListener('play', function (e) {
             var audios = document.getElementsByTagName('audio');
@@ -131,7 +135,7 @@
             </div>
         </div>
     </section>
-    <!-- footer with social media links and copyright -->
+    <!-- footer with social media links -->
     <footer>
         <h2>Connect with us:</h2>
         <!-- social media links -->
