@@ -722,9 +722,9 @@ button a {
 
 @media (max-width:672px) {
 
-    #nav-bar {
+    /* #nav-bar {
         font-size: 16px;
-    }
+    } */
 
     .about {
         font-size: 25px;
@@ -795,7 +795,7 @@ button a {
     }
 
     #nav-bar {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #logo a {
@@ -879,7 +879,7 @@ button a {
 @media (max-width: 290px) {
 
     .nav-item {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     footer li {
