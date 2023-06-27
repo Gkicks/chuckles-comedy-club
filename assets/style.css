@@ -505,7 +505,8 @@ input[type=submit]:hover {
     margin-top: 50px;
 }
 
-#first-newsletter {
+#first-newsletter,
+#nav-error {
     margin-bottom: 50px;
     font-size: 300%;
 }
