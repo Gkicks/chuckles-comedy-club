@@ -505,8 +505,7 @@ input[type=submit]:hover {
     margin-top: 50px;
 }
 
-#first-newsletter,
-#nav-error {
+#first-newsletter {
     margin-bottom: 50px;
     font-size: 300%;
 }
@@ -542,6 +541,32 @@ button:hover {
 button a {
     text-decoration: none;
     color: #a0001c;
+}
+
+/* 404.html page */
+
+#nav-error {
+    height: auto;
+    margin-top: 20vh;
+}
+
+#nav-error h2 {
+    font-size: 500%;
+    text-align: center;
+    color: #a0001c;
+}
+
+#nav-error p {
+    color: #002962;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+#nav-error-paragraph {
+    font-size: 300%;
+    margin-bottom: 50px;
 }
 
 /* media queries */
