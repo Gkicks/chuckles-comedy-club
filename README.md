@@ -9,32 +9,71 @@ Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/c
 
 # Contents
 
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
-* [Design](#design)
-  * [Color Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-* [Features](#features)
-  * [General Features on Each Page](#existing-features)
-  * [Future Implementations](#future-implications)
-  * [Accessibility](#accessibility)
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
-* [Deployment and Local Development](#deployment-and-local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-* [Testing](#testing)
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Other](#other)
-  * [Acknowledgements](#acknowledgements)
+- [Chuckles Comedy Club](#chuckles-comedy-club)
+- [Contents](#contents)
+- [User Experience (UX)](#user-experience-ux)
+  - [Initial Discussion](#initial-discussion)
+    - [Key Information for the Site](#key-information-for-the-site)
+  - [User Stories](#user-stories)
+    - [Client Goals](#client-goals)
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [Frequent Visitor Goals](#frequent-visitor-goals)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+    - [Favicon](#favicon)
+    - [Hero Image](#hero-image)
+    - [Map](#map)
+    - [Comedian and Flag Images](#comedian-and-flag-images)
+  - [Wireframes](#wireframes)
+    - [Desktop](#desktop)
+      - [Index.html](#indexhtml)
+      - [Whatson.html](#whatsonhtml)
+      - [Signup.html](#signuphtml)
+    - [Mobile](#mobile)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [The Navigation Bar](#the-navigation-bar)
+    - [The Landing Page](#the-landing-page)
+    - [Information Section](#information-section)
+    - [Footer](#footer)
+    - [Whats On](#whats-on)
+    - [Sign Up](#sign-up)
+    - [Thank You](#thank-you)
+    - [404.html](#404html)
+  - [Future Implications](#future-implications)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, libraries and programs used](#frameworks-libraries-and-programs-used)
+- [Deployment and Local Development](#deployment-and-local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+  - [WC3 Validator](#wc3-validator)
+  - [Lighthouse](#lighthouse)
+    - [Index.html](#indexhtml-1)
+      - [Desktop](#desktop-1)
+      - [Mobile](#mobile-1)
+    - [Whatson.html](#whatsonhtml-1)
+      - [Desktop](#desktop-2)
+      - [Mobile](#mobile-2)
+    - [Signup.html](#signuphtml-1)
+      - [Desktop](#desktop-3)
+      - [Mobile](#mobile-3)
+  - [Bugs](#bugs)
+    - [Resolved Bugs](#resolved-bugs)
+    - [Unresolved Bugs](#unresolved-bugs)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Other](#other)
+  - [Acknowledgements](#acknowledgements)
 
 [Back to top](#chuckles-comedy-club)
 
@@ -215,6 +254,13 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 
 ![Thank you screenshot](assets/readme-images/thankyou.png)
 
+### 404.html
+
+* Following advice from my mentor I added a custom 404.html page. This will be displayed if a user makes a typing error when entering the url of the website
+* The 404.html page informs the user they have tried to navigate to an unknown page and that they will be redirected to the homepage in five seconds. There is also the option for the user to press a 'return to home' button to return to the index.html page
+
+![404 error page screenshot](assets/readme-images/404.png)
+
 ## Future Implications
 
 * The functionality to be able to purchase tickets, to performances, through the website
@@ -390,6 +436,8 @@ I used Lighthouse, within the Chrome developer tools, to check the performance, 
   * Solution - With help from Tutor Support I found there was a / in front of asset, in my filepath, that shouldn’t have been there. This was removed
 * The audio elements were playing over each other
   * Solution – I copied JavaScript code from the website <https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript>
+* On the advice of my mentor I combined the original find us and opening hours nav links into one nav link (club info). This was to improve the user experience as there were two links going to the same part of the page. During testing following this I found the links to the club info section didn't work when navigating from the what's on and sign up pages
+  * Solution - I hadn't added the index.html to the beginning of the href. I added this to both and the navigation worked 
 
 ### Unresolved Bugs
 
@@ -413,7 +461,7 @@ None that I know of
 
 This code was taken from the website <https://stackoverflow.com/questions/19790506/multiple-audio-html-auto-stop-other-when-current-is-playing-with-javascript> and was used for the audio elements so that, when another audio was played, the current one playing would stop
 
-1.
+2.
 
 ![Screenshot of code used for automatic redirect](assets/readme-images/credit-auto-redirect-thankyou.png)
 
