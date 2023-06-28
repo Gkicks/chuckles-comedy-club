@@ -596,6 +596,11 @@ button a {
         margin-top: 19vh;
     }
 
+    #opening>h2 {
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
     #friday {
         margin-top: 20vh;
     }
@@ -657,11 +662,6 @@ button a {
         font-size: 12px;
     }
 
-    #opening>h2 {
-        padding-bottom: 0px;
-        font-size: 20px;
-    }
-
     audio {
         width: 80%;
     }
@@ -679,10 +679,6 @@ button a {
 
     .about h2 {
         font-size: 30px;
-    }
-
-    #opening h2 {
-        font-size: 20px;
     }
 
     .comedian {
