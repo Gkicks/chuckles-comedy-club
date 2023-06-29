@@ -1,6 +1,7 @@
 # Chuckles Comedy Club
 
 The Chuckles Comedy Club website is an information website, for a comedy club specialising in American comics, based in London, UK.
+
 This website is designed to provide information about the comedy club such as which acts will be performing, opening hours and how to find the venue
 
 ![am-i-responsive](assets/readme-images/am-i-responsive.png)
@@ -81,7 +82,7 @@ Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/c
 
 ## Initial Discussion
 
-Chuckles Comedy Club is a venue where the USP is that the performers are all American comedians. The website is user-friendly and easy to navigate, allowing users to quickly find the information they need.
+Chuckles Comedy Club is a venue where the unique selling point is that the performers are all American comedians. The website is user-friendly and easy to navigate, allowing users to quickly find the information they need.
 
 ### Key Information for the Site
 
@@ -226,7 +227,7 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 * The footer features on all three main pages of the website as well as the thank you page following the user completing the signup form
 * The footer contain links to the social media sites Facebook, Twitter and Instagram. Chuckles Comedy Club currently doesn’t have social media pages but, once these are created, the links will link to these
 * The styling of the footer reflects that of the header to simplify the user experience
-* Each footer item have an aria link to improve accessibility for those using assistive technology
+* The footer does not contain aria-labels as the words already explain what the link is for
 
 ![Footer screenshot](assets/readme-images/footer.png)
 
@@ -250,14 +251,14 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 ### Thank You
 
 * The thank you page is displayed when the sign up form is submitted. This gives the user confirmation that their request has been received
-* The thank you page informs the user that they will be redirected back to the home page in five seconds and also gives the option to press a ‘return to home’ button to return to the index.html page
+* There is a 'Return to Home' button so the user can easily navigate back te Home page
 
 ![Thank you screenshot](assets/readme-images/thankyou.png)
 
 ### 404.html
 
 * Following advice from my mentor I added a custom 404.html page. This will be displayed if a user makes a typing error when entering the url of the website
-* The 404.html page informs the user they have tried to navigate to an unknown page and that they will be redirected to the homepage in five seconds. There is also the option for the user to press a 'return to home' button to return to the index.html page
+- There is a 'Return to Home' button so the user can easily navigate back te Home page
 
 ![404 error page screenshot](assets/readme-images/404.png)
 
@@ -267,17 +268,55 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 * More information about venue facilities – i.e., food and drink menus, disability access
 * Search function to allow users to search the website
 * A FAQ page to be added
+* Transcripts to be added to the audio elements
+* Functionality to be added for a non-technical administrator to be able to upload upcoming acts
+* Social media sites to be developed for Chuckles Comedy Club
 
 ## Accessibility
 
 * All pages use semantic html
-* Aria-labels were used to improve accessibility for those using assistive technology
+* Aria-labels were used to improve accessibility for those using assistive technology. These are in all links apart from those in the footer. This is due to the footer text already telling those using a screen reader where the link would take them
 * I used the Google Chrome extensions:
-  * Wave Evaluation Tool – no errors were detected
   * Web Disability Simulator – simulated the website for people with sight, mobility, reading and writing and concentration disabilities to view the webpage how others could see it. There were no concerns noted in these simulations
   * Screen Reader – Simulated how the website experience would be for a user using a screen reader. There were no concerns noted using this simulation
-  * I used <https://webaim.org/resources/contrastchecker/> to check the contrasts of the colours chosen. This passed for both combinations of red and white (contrast ratio 7
+  * I used https://webaim.org/resources/contrastchecker/ to check the contrasts of the colours chosen. This passed for both combinations of red and white (contrast ratio 7
 .62:1) and blue and white (contrast ratio 12.82:1). This failed for the blue and red combination (contrast ratio 1.68:1) so this was not used in the website
+
+### Wave Validator
+
+I used the Wave validator to check if I could improve the user experience of the webpage for those with disabilities.
+
+#### Home Page
+
+When I first ran the validator there were two alerts but no errors:
+	
+* It detected that the tagline ‘bringing the best, of the US, to the UK!’ was in a paragraph element but looked like a header. I changed the paragraph element to an h2 which resolved this
+
+![wave validation home page](assets/readme-images/wave-homepage.png)
+
+* The second alert was that it was showing that the ‘Home’ nav link was redundant as there was an adjacent link to the same page. This is because the logo also links to the Home Page. I looked at the website https://www.nngroup.com/articles/homepage-links/ that detailed it was best practice for the logo to link to the Home Page, as that’s what user’s have come to expect. I decided to also leave the nav link to the Home Page in as I believe this will make the site easier to navigate, for the majority or users, while having minimal impact on those with disabilities. This alert was the same across all pages
+
+![wave contrast screenshot](assets/readme-images/contrast.png)
+
+#### What's On Page
+
+There were seven alerts and no errors. One alert was due to the redundant home nav link, as above. The other six alerts were due to the audio not having a transcript. I tried to find a way to add a transcript to the audio but was unable to do this without ruining the look of the page. This would be an opportunity for further development
+
+![wave validation what's on page](assets/readme-images/wave-whatson.png)
+
+#### Sign Up Page
+
+When I first ran the validator there were two alerts but no errors. The first alert was due to the redundant home nav link, as above. The second alert was because of an incorrect heading order. Wave showed that there was an h1 element, and two h3 elements, but no h2 element. This was resolved by changing the first h3 element (Sign up for our newsletter…) to an h2 element
+
+![wave validation whats on page](assets/readme-images/wave-signup.png)
+
+#### Thank You Page
+
+This showed one error that the page had a redirect and this can pose difficulties for screen reader users.
+
+![wave validation thank you page](assets/readme-images/wave-thankyou.png)
+
+
 
 [Back to top](#chuckles-comedy-club)
 
