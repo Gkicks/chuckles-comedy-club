@@ -520,6 +520,120 @@ The only amber warning through Lighthouse was that the Sign Up scored 86 in perf
 
 Accessibibility and SEO scored 100 in every category
 
+## Manual Testing
+
+### Testing User Stories
+
+### Client Goals
+
+| Goal | How is this achieved? |
+|:----:| :-------------------: |
+| To be responsive on a range of devices | The website was tested on various sizes and was responsive to all sizes tested – see automated testing section |
+| Entice potential customers to visit the club | The site is easy to use and imformative. It’s evident, from the landing page, what the purpose of the website is. The user is able to see upcoming acts and listen to a clip of their routine |
+| Allow potential / returning customers to sign up to a newsletter | Users can sign up to the newsletter on the signup.html page. There are links to this page from both the Home Page and What’s On page |
+
+### First Time Visitor Goals
+
+| Goal | How is this achieved? |
+|:----:| :-------------------: |
+| To be able to easily navigate the website | The website is intuative with links to the main sections from each page. There are ‘return to home’ buttons on both the Thank You and 404 pages |
+| Understand the features of the website | The navbar shows the areas of the website that are avalable for the user to navigate to. Any interactive features, such as the audio clips, are clear and are intuative for the user to use |
+| Understand the USP of Chuckles Comedy Club | There is a heading on the hero image that descibes the unique selling point of the website. The colours and images chosen also reflect this |
+| Be able to easily find the location of the club | The address of the club is prominantly displayed as well as an interactive map so the user can navigate to that location |
+| Know which acts are performing | The upcoming acts performing are shown on the What’s On page. There are links to this, in the navbar, from both the Home Page and Sign Up page |
+| Sign up to receive more information | Users can sign up to the newsletter on the signup.html page. There are links to this page from both the Home Page and What’s On page |
+
+### Returning Visitor Goals
+
+| Goal | How is this achieved? |
+|:----:| :-------------------: |
+| Be able to see any new acts added | The upcoming acts performing are shown on the What’s On page. There are links to this, in the navbar, from both the Home Page and Sign Up page. There would need to be an administrator to keep this page updated |
+| Be able to hear an audio clip of the performers routine | Each act on the What’s On page has a audio clip. This fades in and out to make a nicer listening experience for the user |
+
+### Frequent Visitor Goals
+
+| Goal | How is this achieved? |
+|:----:| :-------------------: |
+| Ability to check who is performing in the upcoming week | The upcoming acts performing are shown on the What’s On page. There are links to this, in the navbar, from both the Home Page and Sign Up page. There would need to be an administrator to keep this page updated |
+| To link into the club’s social media | The footer contains links to Facebook, Twitter and Instagram. These open into a new page so the user can easily navigate back to the website without closing it in error. Chuckle Comedy Club currently doesn’t have it’s own social media pages so these link to the Home Page of the social media sites. This is an area that is an opportunity for future development |
+
+## Full Testing
+
+Full testing was completed on the following devices:
+	
+* Galaxy Fold 4 (mobile)
+* Galaxy A20e (mobile)
+* Galaxy Book2 Pro360 (15.6” laptop)
+* Dell Computer (desktop)
+* iPad 8th Generation (tablet)
+
+### Home Page
+
+| Feature |	Expected Outcome | Testing Performed | Result | Pass / Fail |
+| :-----: | :--------------: | :---------------: | :----: | :---------: |
+| Logo | Links to the Home Page | Clicked on logo | Home Page refreshed | Pass |
+| Home (navbar link) | Links to the Home Page | Clicked on link | Home Page refreshed | Pass |
+| Club Info (navbar link) | Links to address / opening hours section of Home Page | Clicked on link | Moved page to address / opening hours section of Home Page | Pass |
+| What’s On (navbar link) | Links to What’s On page | Clicked on link | Opened What’s On page | Pass |
+| Sign Up (navbar link) | Links to sign up form | Clicked on link | Opened Sign Up Page | Pass |
+| View larger map| Link to Google Maps, opening at the correct loaction | Clicked on ‘view larger map’ link | Opened map in Google maps | Pass |
+| Facebook (footer link) | Opens Facebook website in new page | Clicked on link	| Opened Facebook in new page / app | Pass |
+| Twitter (footer link) | Opens Twitter website in new page | Clicked on link | Opened Twitter in new page / app | Pass |
+| Instagram (footer link) | Opens Instagram website in new page | Clicked on link | Opened Instagram in new page / app | Pass |
+| Hover effect on all nav and footer links | Writing to turn blue and red border appear | Hovered over each link | Correct styling displayed | Pass |
+
+### What’s On Page
+
+| Feature |	Expected Outcome | Testing Performed | Result | Pass / Fail |
+| :-----: | :--------------: | :---------------: | :----: | :---------: |
+| Logo | Links to the Home Page | Clicked on logo | Home Page opened | Pass |
+| Home (navbar link) | Links to the Home Page | Clicked on link | Home Page opened | Pass |
+| Club Info (navbar link) | Links to address / opening hours section of Home Page | Clicked on link | Moved page to address / opening hours section of Home Page | Pass |
+| What’s On (navbar link) | Links to What’s On page | Clicked on link | Refreshed What’s On page | Pass |
+| Sign Up (navbar link) | Links to sign up form	| Clicked on link | Opened Sign Up page | Pass |
+| Audio buttons (all) | Play an audio clip of the comedian. To stop playing if another audio clip is started | Pressed play on all audio elements while another audio element was playing | Audio all played and stopped playing when another audio started | Pass |
+| Facebook (footer link) | Opens Facebook website in new page | Clicked on link | Opened Facebook in new page / app | Pass |
+| Twitter (footer link) | Opens Twitter website in new page | Clicked on link | Opened Twitter in new page / app | Pass |
+| Instagram (footer link) | Opens Instagram website in new page | Clicked on link | Opened Instagram in new page / app | Pass |
+| Hover effect on all nav and footer links | Writing to turn blue and red border appear | Hovered over each link | Correct styling displayed | Pass |
+
+### Sign Up Page 
+
+| Feature |	Expected Outcome | Testing Performed | Result | Pass / Fail |
+| :-----: | :--------------: | :---------------: | :----: | :---------: |
+| Logo | Links to the Home Page | Clicked on logo | Home Page opened | Pass |
+Home (navbar link) | Links to the Home Page | Clicked on link | Home Page opened | Pass |
+| Club Info (navbar link) | Links to address / opening hours section of Home Page | Clicked on link | Moved page to address / opening hours section of Home Page | Pass |
+What’s On (navbar link) | Links to What’s On page | Clicked on link | Opened What’s On page | Pass |
+Sign Up (navbar link) | Links to sign up form | Clicked on link | Refreshed Sign Up page | Pass |
+| Input fields | Allow user to enter their personal details | Entered details into each input | Information inputted | Pass |
+Submit button | Links to thank you page if all input areas completed correctly | Pressed submit with variations of inputs | Opened to thank you page only if all fields had been completed and there was an email address format in the email address input | Pass |
+| Hover effect on submit button | Submit button slowly increases in size | Hovered over submit button | Button size increased slowly | Pass |
+| Facebook (footer link) | Opens Facebook website in new page | Clicked on link | Opened Facebook in new page / app | Pass |
+| Twitter (footer link) | Opens Twitter website in new page | Clicked on link | Opened Twitter in new page / app | Pass |
+| Instagram (footer link) | Opens Instagram website in new page | Clicked on link | Opened Instagram in new page / app | Pass |
+| Hover effect on all nav and footer links | Writing to turn blue and red border appear | Hovered over each link | Correct styling displayed | Pass |
+
+### Thank You Page
+
+| Feature |	Expected Outcome | Testing Performed | Result | Pass / Fail |
+| :-----: | :--------------: | :---------------: | :----: | :---------: |
+| Logo | Links to the Home Page	| Clicked on logo | Home Page opened | Pass |
+| Return to Home button	| Links to the Home Page | Clicked button | Home Page opened | Pass |
+| Hover effect on Return to Home button	| Return to Home button slowly increases in size | Hovered over Return to Home button | Button size increased slowly | Pass |
+| Facebook (footer link) | Opens Facebook website in new page | Clicked on link	| Opened Facebook in new page / app	| Pass |
+| Twitter (footer link)	| Opens Twitter website in new page	| Clicked on link | Opened Twitter in new page / app | Pass |
+| Instagram (footer link) | Opens Instagram website in new page	|Clicked on link | Opened Instagram in new page / app | Pass |
+| Hover effect on all nav and footer links | Writing to turn blue and red border appear	| Hovered over each link | Correct styling displayed | Pass |
+
+### 404 Page
+
+| Feature |	Expected Outcome | Testing Performed | Result | Pass / Fail |
+| :-----: | :--------------: | :---------------: | :----: | :---------: |
+| Logo | Links to the Home Page	| Clicked on logo | Home Page opened | Pass |
+| Return to Home button	| Links to the Home Page | Clicked button | Home Page opened | Pass |
+| Hover effect on Return to Home button	| Return to Home button slowly increases in size | Hovered over Return to Home button | Button size increased slowly | Pass |
+
 ## Bugs
 
 ### Resolved Bugs
@@ -545,7 +659,7 @@ Accessibibility and SEO scored 100 in every category
 
 ### Unresolved Bugs
 
-None that I know of
+* When manually testing the Home Page on an 8th generation iPad the Sunday opening hours didn’t show. I was unable to replicate this in the Chrome developer tools. I tried reducing the font-size by 2px (from 14px to 12px), removing the h2 padding-bottom on screen sizes max-width:780px, and reducing the h2 font size to 20px on screens max-width: 780px rather than max-width:750px. This did’t work. I used www.whatismyscreenresolution.net to find the screen size. This showed the screen size was 810px in width so I changed the h2 padding-bottom and font-size to change at max-width:925px rather than max-width:780px. This resolved thge issue on the iPad I was able to use but, as I don’t currently have access to any other devices, I don’t know that the bug couldn’t be issue on other screen sizes.
 
 [Back to top](#chuckles-comedy-club)
 
@@ -569,7 +683,7 @@ This code was taken from the website <https://stackoverflow.com/questions/197905
 
 ![Screenshot of code used for automatic redirect](assets/readme-images/credit-auto-redirect-thankyou.png)
 
-I adapted this code, from the website <https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL> to automatically divert the user from the page thankyou.html, to index.html, after five seconds
+I adapted this code, from the website <https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL> to automatically divert the user from the page thankyou.html, to index.html, after five seconds. However, I then chose to remove this functionality after it bringing up an error in the Wave validation.
 
 ## Content
 
@@ -611,6 +725,6 @@ I would like to acknowledge the following people for their help in completing my
 * My family and friends for helping me during the testing stages
 * The Tutor Support team at Code Institute
 * The Code Institute Slack community
-* Kera Cudmore for her fantastic README presentation
+* Kera Cudmore for her fantastic README presentation and documentation
 
 [Back to top](#chuckles-comedy-club)
