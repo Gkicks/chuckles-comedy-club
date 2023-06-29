@@ -46,6 +46,7 @@ Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/c
     - [404.html](#404html)
   - [Future Implications](#future-implications)
   - [Accessibility](#accessibility)
+    - [Wave Validator](#wave-validator)
 - [Technologies Used](#technologies-used)
   - [Languages Used](#languages-used)
   - [Frameworks, libraries and programs used](#frameworks-libraries-and-programs-used)
@@ -66,6 +67,23 @@ Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/c
     - [Signup.html](#signuphtml-1)
       - [Desktop](#desktop-3)
       - [Mobile](#mobile-3)
+    - [Thankyou.html](#thankyouhtml-1)
+      - [Desktop](#desktop-4)
+      - [Mobile](#mobile-4)
+    - [404.html](#404html-1)
+      - [Desktop](#desktop-5)
+      - [Mobile](#mobile-5)
+  - [Testing User Stories](#testing-user-stories)
+    - [Client Goals](#client-goals-1)
+    - [First Time Visitor Goals](#first-time-visitor-goals-1)
+    - [Returning Visitor Goals](#returning-visitor-goals-1)
+    - [Frequent Visitor Goals](#frequent-visitor-goals-1)
+  - [Full Testing](#full-testing)
+    - [Home Page](#home-page-1)
+    - [What's On Page](#whats-on-page-1)
+    - [Sign Up Page](#sign-up-page-1)
+    - [Thank You Page](#thank-you-page-1)
+    - [404 Page](#404-page)
   - [Bugs](#bugs)
     - [Resolved Bugs](#resolved-bugs)
     - [Unresolved Bugs](#unresolved-bugs)
@@ -156,7 +174,7 @@ Chuckles Comedy Club is a venue where the unique selling point is that the perfo
 ### Hero Image
 
 * I found this image on the website pixabay.com
-* The original image had the word ‘comedy’ in neon green letters. The did not match the colour scheme of the website so I cropped this part of the image out
+* The original image had the word ‘comedy’ in neon green letters. This did not match the colour scheme of the website so I cropped this part of the image out
 
 ### Map
 
@@ -166,7 +184,7 @@ Chuckles Comedy Club is a venue where the unique selling point is that the perfo
 
 * These  images were all found on the website <https://unsplash.com/>.
 
-All images were converted to .webp format to reduce file size and therfore speed up loading times
+All images were converted to .webp format to reduce file size and therefore speed up loading times
 
 ## Wireframes
 
@@ -202,7 +220,7 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 
 ### The Navigation Bar
 
-* The navigation bar features on all three pages of the Chuckles Comedy Club website. It includes links to the home, what’s on and signup pages as well as links to the address and opening hours sections of the home page. The navigation bar also features a logo which will direct the user back to the home page
+* The navigation bar features on all three main pages of the Chuckles Comedy Club website. It includes links to the home page, what’s on and sign up pages as well as links to the address and opening hours sections of the home page. The navigation bar also features a logo which will direct the user back to the home page
 * The navigation bar is identical on each individual page to support the cohesiveness of the website
 * The navigation is fully responsive and allows the user to easily navigate throughout the website
 * Each navigation item includes an aria-label to improve accessibility for those using assistive technology
@@ -224,7 +242,7 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 
 ### Footer
 
-* The footer features on all three main pages of the website as well as the thank you page following the user completing the signup form
+* The footer features on all three main pages of the website, as well as the thank you page, following the user completing the signup form
 * The footer contain links to the social media sites Facebook, Twitter and Instagram. Chuckles Comedy Club currently doesn’t have social media pages but, once these are created, the links will link to these
 * The styling of the footer reflects that of the header to simplify the user experience
 * The footer does not contain aria-labels as the words already explain what the link is for
@@ -258,13 +276,13 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 ### 404.html
 
 * Following advice from my mentor I added a custom 404.html page. This will be displayed if a user makes a typing error when entering the url of the website
-- There is a 'Return to Home' button so the user can easily navigate back te Home page
+- There is a 'Return to Home' button so the user can easily navigate back the Home page
 
 ![404 error page screenshot](assets/readme-images/404.png)
 
 ## Future Implications
 
-* The functionality to be able to purchase tickets, to performances, through the website
+* The functionality to be able to purchase tickets to performances, through the website
 * More information about venue facilities – i.e., food and drink menus, disability access
 * Search function to allow users to search the website
 * A FAQ page to be added
@@ -275,7 +293,7 @@ View mobile wireframes on the Figma site: [Mobile](https://www.figma.com/file/rP
 ## Accessibility
 
 * All pages use semantic html
-* Aria-labels were used to improve accessibility for those using assistive technology. These are in all links apart from those in the footer. This is due to the footer text already telling those using a screen reader where the link would take them
+* Aria-labels were used to improve accessibility for those using assistive technology. These are in all links apart from those in the footer. This is due to the footer text already telling those, using a screen reader, where the link would take them
 * I used the Google Chrome extensions:
   * Web Disability Simulator – simulated the website for people with sight, mobility, reading and writing and concentration disabilities to view the webpage how others could see it. There were no concerns noted in these simulations
   * Screen Reader – Simulated how the website experience would be for a user using a screen reader. There were no concerns noted using this simulation
@@ -316,7 +334,7 @@ This showed one error that the page had a redirect and this can pose difficultie
 
 ![wave validation thank you page](assets/readme-images/wave-thankyou.png)
 
-I chose to remove this functionality as there is a button for the user to return to the home page and I don’t believe in inclusion of this function is justified when it would negatively impact users with disabilities.
+I chose to remove this functionality as there is a button for the user to return to the home page and, I don’t believe in inclusion of this function is justified, when it would negatively impact users with disabilities.
 
 #### 404
 
@@ -415,10 +433,10 @@ I also used Chrome Developer tools to look for bugs throughout designing and bui
 
 Of these, the narrowest screensize was the Galaxy Fold so I made sure the website was responsive down to this size. I have a Galaxy Fold 4 so also tested the website on this device.
 
-I posted a link to my website in the slack channel peer-code-review, but didn’t get any comments left, so I asked friends and family to test the website on their devices. There were two concerns raised from this:
+I posted a link to my website in the slack channel peer-code-review, but didn’t get any comments left so, I asked friends and family to test the website on their devices. There were two concerns raised from this:
 
 * The audio elements didn’t stop playing when another audio element started. This meant that the audio could all play over each other. I fixed this by finding some lines of JavaScript code (see credits section)
-* On the iPad 8th generation the opening hours didn’t show the opening hours for Sunday. I was unable to replicate this in the Chrome Developer tools but his was resolved by decreasing the h2 padding and font size for screen sizes max-width:925px
+* On the iPad 8th generation the opening hours didn’t show the opening hours for Sunday. I was unable to replicate this in the Chrome Developer tools but this was resolved by decreasing the h2 padding and font size for screen sizes max-width:925px
 
 ## WC3 Validator
 
@@ -529,7 +547,7 @@ Accessibibility and SEO scored 100 in every category
 | Goal | How is this achieved? |
 |:----:| :-------------------: |
 | To be responsive on a range of devices | The website was tested on various sizes and was responsive to all sizes tested – see automated testing section |
-| Entice potential customers to visit the club | The site is easy to use and imformative. It’s evident, from the landing page, what the purpose of the website is. The user is able to see upcoming acts and listen to a clip of their routine |
+| Entice potential customers to visit the club | The site is easy to use and informative. It’s evident, from the landing page, what the purpose of the website is. The user is able to see upcoming acts and listen to a clip of their routine |
 | Allow potential / returning customers to sign up to a newsletter | Users can sign up to the newsletter on the signup.html page. There are links to this page from both the Home Page and What’s On page |
 
 ### First Time Visitor Goals
@@ -538,7 +556,7 @@ Accessibibility and SEO scored 100 in every category
 |:----:| :-------------------: |
 | To be able to easily navigate the website | The website is intuative with links to the main sections from each page. There are ‘return to home’ buttons on both the Thank You and 404 pages |
 | Understand the features of the website | The navbar shows the areas of the website that are avalable for the user to navigate to. Any interactive features, such as the audio clips, are clear and are intuative for the user to use |
-| Understand the USP of Chuckles Comedy Club | There is a heading on the hero image that descibes the unique selling point of the website. The colours and images chosen also reflect this |
+| Understand the USP of Chuckles Comedy Club | There is a heading, on the hero image, that descibes the unique selling point of the website. The colours and images chosen also reflect the American theme |
 | Be able to easily find the location of the club | The address of the club is prominantly displayed as well as an interactive map so the user can navigate to that location |
 | Know which acts are performing | The upcoming acts performing are shown on the What’s On page. There are links to this, in the navbar, from both the Home Page and Sign Up page |
 | Sign up to receive more information | Users can sign up to the newsletter on the signup.html page. There are links to this page from both the Home Page and What’s On page |
@@ -548,14 +566,14 @@ Accessibibility and SEO scored 100 in every category
 | Goal | How is this achieved? |
 |:----:| :-------------------: |
 | Be able to see any new acts added | The upcoming acts performing are shown on the What’s On page. There are links to this, in the navbar, from both the Home Page and Sign Up page. There would need to be an administrator to keep this page updated |
-| Be able to hear an audio clip of the performers routine | Each act on the What’s On page has a audio clip. This fades in and out to make a nicer listening experience for the user |
+| Be able to hear an audio clip of the performers routine | Each act on the What’s On page has a audio clip. This fades in and out to make a more pleasurable listening experience for the user |
 
 ### Frequent Visitor Goals
 
 | Goal | How is this achieved? |
 |:----:| :-------------------: |
 | Ability to check who is performing in the upcoming week | The upcoming acts performing are shown on the What’s On page. There are links to this, in the navbar, from both the Home Page and Sign Up page. There would need to be an administrator to keep this page updated |
-| To link into the club’s social media | The footer contains links to Facebook, Twitter and Instagram. These open into a new page so the user can easily navigate back to the website without closing it in error. Chuckle Comedy Club currently doesn’t have it’s own social media pages so these link to the Home Page of the social media sites. This is an area that is an opportunity for future development |
+| To link into the club’s social media | The footer contains links to Facebook, Twitter and Instagram. These open into a new page so the user can easily navigate back to the website without closing it in error. Chuckles Comedy Club currently doesn’t have it’s own social media pages so these link to the home Pages of the social media sites. This is an area that is an opportunity for future development |
 
 ## Full Testing
 
@@ -702,6 +720,8 @@ The comedians used for my audio clips were:
 * Hayley Wilkinson – Taylor Tominson
 * Tammy Curham – Jen Kirkman
 * Nathan Garzee – Nate Bargatze
+
+The audio clips were all taken from Spotify
 
 ## Other
 
