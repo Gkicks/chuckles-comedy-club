@@ -316,7 +316,13 @@ This showed one error that the page had a redirect and this can pose difficultie
 
 ![wave validation thank you page](assets/readme-images/wave-thankyou.png)
 
+I chose to remove this functionality as there is a button for the user to return to the home page and I don’t believe in inclusion of this function is justified when it would negatively impact users with disabilities.
 
+#### 404
+
+This raised one alert that there was a possible header. I chose to leave this as a paragraph as I don’t believe this to be a header
+
+![wave validation 404 page](assets/readme-images/wave-404.png)
 
 [Back to top](#chuckles-comedy-club)
 
@@ -340,6 +346,8 @@ HTML, CSS were mainly used to create this website. I used a small section of Jav
 * Google Dev Tools – Used to troubleshoot and debug
 * Google Fonts - To import the fonts used on the website
 * Spotify – The library my audio clips were taken from
+* Wave Validator – To check if improvement could be made for those users with disabilities
+* WC3 Validator / Jigsaw – To check code meets the required standard 
 
 [Back to top](#chuckles-comedy-club)
 
@@ -387,9 +395,30 @@ I tested the website in the following browsers:
 * Edge
 * Firefox
 
-I also used Chrome Developer tools to test how the screen looked and worked on each device screen and also used these tools to look for bugs throughout designing and building the website.
+I also used Chrome Developer tools to look for bugs throughout designing and building the website and test how the screen looked and worked on the following device screens:
 
-I posted a link to my website in the slack channel peer-code-review, but didn’t get any comments left, so I asked friends and family to test the website on their devices. There was one concern raised from this which was that the audio elements didn’t stop playing when another audio element started. This meant that the audio could all play over each other. I fixed this by finding some lines of JavaScript code (see credits section)
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* Pixel 5
+* Samsung Galaxy S8+
+* Galaxy S20 Ultra
+* iPad Air
+* iPad Mini
+* Surface Pro 7
+* Surface Duo
+* Galaxy Fold
+* Samsung Galaxy A51/71
+* Nest Hub
+* Nest Hub Max
+* iPhone 6/7/8
+
+Of these, the narrowest screensize was the Galaxy Fold so I made sure the website was responsive down to this size. I have a Galaxy Fold 4 so also tested the website on this device.
+
+I posted a link to my website in the slack channel peer-code-review, but didn’t get any comments left, so I asked friends and family to test the website on their devices. There were two concerns raised from this:
+
+* The audio elements didn’t stop playing when another audio element started. This meant that the audio could all play over each other. I fixed this by finding some lines of JavaScript code (see credits section)
+* On the iPad 8th generation the opening hours didn’t show the opening hours for Sunday. I was unable to replicate this in the Chrome Developer tools but his was resolved by decreasing the h2 padding and font size for screen sizes max-width:925px
 
 ## WC3 Validator
 
@@ -403,11 +432,11 @@ I ran my HTML and CSS through the WC3 Validators. These were the errors that wer
 
 ![Iframe link screenshot](assets/readme-images/iframe-link.png)
 
-* The button on my thankyou.html page contained a link to return the user back to the home screen. The WC3 validator said a button cannot have a link. This was solved by wrapping the button in a form where the action was ‘index.html’
+* The button on my thankyou.html page contained a link to return the user back to the home screen. The WC3 validator said a button cannot have a link. This was solved by wrapping the button in a form where the action was ‘index.html’. I used this guidance to resolve the issue: https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5 
 
 ![screenshot button link](assets/readme-images/button-thankyou.png)
 
-* There was an issue validating the code to automatically redirect the user back to the homepage, from the thankyou.html page. This was solved by adding URL= to index.html in the meta line
+* There was an issue validating the code to automatically redirect the user back to the homepage, from the thankyou.html page. This was solved by adding URL= to index.html in the meta line. However, I then chose to remove this functionality as it brought up an error in the Wave validator
 
 ![screenshot url index](assets/readme-images/url-index.png)
 
@@ -419,7 +448,19 @@ I ran my HTML and CSS through the WC3 Validators. These were the errors that wer
 
 The website now passes all WC3 validation for each page:  
 
-![screenshot wc3 validator](assets/readme-images/wc3-validator.png)
+* Index.html – passed
+* Whatson.html – passed
+* Signup.html – passed
+* Thankyou.html – passed
+* 404.html - passed
+
+The validator showed this for each page tested:
+
+![screenshot of wc3 validator](assets/readme-images/wc3-validator.png)
+
+I used the WC3 Jigsaw validator to test my CSS. This returned:
+
+![screen shot of jigsaw validator](assets/readme-images/jigsaw-validation.png)
 
 ## Lighthouse
 
@@ -454,6 +495,30 @@ I used Lighthouse, within the Chrome developer tools, to check the performance, 
 #### Mobile
 
 ![screenshot of lighthouse for signup.html mobile](assets/readme-images/lighthouse-signup-mobile.png)
+
+### Thankyou.html
+
+#### Desktop
+
+![screenshot of lighthouse for thankyou.html desktop](assets/readme-images/lighthouse-thankyou-desktop.png)
+
+#### Mobile
+
+![screenshot of lighthouse for thankyou.html mobile](assets/readme-images/lighthouse-thankyou-mobile.png)
+
+### 404.html
+
+#### Desktop
+
+![screenshot of lighthouse for 404.html desktop](assets/readme-images/lighthouse-404-desktop.png)
+
+#### Mobile
+
+![screenshot of lighthouse for 404.html mobile](assets/readme-images/lighthouse-404-mobile.png)
+
+The only amber warning through Lighthouse was that the Sign Up scored 86 in performance on mobile. I tried to decrease the image size but the image became distored. Removing the background image increased the performance score to 93 however, I chose to leave the image in place as it’s improves the user experience and makes the website more cohensive. 
+
+Accessibibility and SEO scored 100 in every category
 
 ## Bugs
 
