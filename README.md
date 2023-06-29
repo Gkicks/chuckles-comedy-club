@@ -67,7 +67,7 @@ Visit the deployed site here: [Chuckles Comedy Club](<https://gkicks.github.io/c
     - [Signup.html](#signuphtml-1)
       - [Desktop](#desktop-3)
       - [Mobile](#mobile-3)
-    - [Thankyou.html](#thankyouhtml-1)
+    - [Thankyou.html](#thankyouhtml)
       - [Desktop](#desktop-4)
       - [Mobile](#mobile-4)
     - [404.html](#404html-1)
